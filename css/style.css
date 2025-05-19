@@ -19,4 +19,87 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.card {
+  width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-top: #7c3aed 4px solid;
+}
+
+.card-header {
+  padding: 16px;
+  border-left: #7c3aed 2px solid;
+  color: black;
+  text-align: left;
+  border-right: #7c3aed 2px solid;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.card-header p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.card-body {
+  padding: 20px;
+  color: #333;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+.subtext {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #7c3aed;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.individual {
+  position: relative;
+  left: 50px;
+}
+
+.growth_wrapper {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
