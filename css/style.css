@@ -1,3 +1,26 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1540px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .course-spn {
   font-weight: 700;
 }
@@ -10,4 +33,55 @@
 
 .course-discount {
   background-color: #c2e9eb;
+}
+
+.header__main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  padding: 12px 24px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.header__link {
+  color: #303141;
+}
+
+.header__explore {
+  color: #303141;
+}
+
+#headerInput {
+  width: 545px;
+  padding: 14px 20px;
+  border-radius: 25px;
+}
+
+.header__login {
+  background-color: white;
+  border: 3px solid #6d28d2;
+  border-radius: 4px;
+  padding: 15px;
+  color: #6d28d2;
+}
+
+.header__signup {
+  background-color: #6d28d2;
+  border: 3px solid #6d28d2;
+  border-radius: 4px;
+  color: white;
+  padding: 15px;
+}
+
+.header__space-btn {
+  background-color: white;
+  border: 3px solid #6d28d2;
+  padding: 15px;
 }/*# sourceMappingURL=style.css.map */
