@@ -1,1 +1,22 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1540px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
