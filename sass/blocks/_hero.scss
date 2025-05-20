@@ -54,6 +54,20 @@
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
+.plan-button-trns {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+ background-color: white;
+  color: rgba(109, 40, 210, 1);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  border: 1px rgba(109, 40, 210, 1) solid;
+}
+
 .plan-features {
   display: flex;
   list-style: none;
@@ -137,3 +151,16 @@
 .top-reload-wrapper{
  margin-top: 23px;
 }
+
+.heading_wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+button{
+  cursor: pointer;
+}
+
+
