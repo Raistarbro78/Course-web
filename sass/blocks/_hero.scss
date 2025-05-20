@@ -1,0 +1,17 @@
+.hero {
+  padding: 64px 0 140px 0;
+  background-image: url("/assets/hero\ main.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero__skills-box {
+    background-color: #fff;
+    padding: 24px;
+    max-width: 40%;
+    margin-left: 40px;
+}
+.hero__title {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
