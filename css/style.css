@@ -49,7 +49,72 @@ a {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
+.course-spn {
+  font-weight: 700;
+}
+
+.course-text {
+  text-align: center;
+  padding: 16px 0;
+  font-size: 15px;
+}
+
+.header__main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  padding: 12px 24px;
+  box-shadow: 2px 2px 2px silver;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.header__link {
+  color: #303141;
+}
+
+.header__explore {
+  color: #303141;
+}
+
+#headerInput {
+  width: 545px;
+  padding: 14px 20px;
+  border-radius: 25px;
+}
+
+.header__login {
+  background-color: white;
+  border: 3px solid #6d28d2;
+  border-radius: 4px;
+  padding: 15px;
+  color: #6d28d2;
+}
+
+.header__signup {
+  background-color: #6d28d2;
+  border: 3px solid #6d28d2;
+  border-radius: 4px;
+  color: white;
+  padding: 15px;
+}
+
+.header__space-btn {
+  background-color: white;
+  border: 3px solid #6d28d2;
+  padding: 15px;
+}
+
+.header__topColor {
+  background-color: #c2e9eb;
+}
+
 .card {
   width: 320px;
   border: 1px solid #ddd;
@@ -165,8 +230,36 @@ a {
   gap: 30px;
 }
 
+.hero {
+  padding: 64px 0 140px 0;
+  background-image: url("/assets/hero main.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 27px;
+}
+
+.hero__skills-box {
+  background-color: #fff;
+  padding: 24px;
+  max-width: 40%;
+  margin-left: 40px;
+}
+
+.hero__title {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.reimagine {
+  margin-top: 48px;
+}
+
 .top-reload-wrapper {
-  border: solid #C4710D 2px;
+  margin-top: 23px;
+}
+
+.top-reload-wrapper {
+  border: solid #c4710d 2px;
   padding: 17px 15px 15px 65px;
   border-radius: 16px;
 }
@@ -182,8 +275,8 @@ a {
 }
 
 .top-reload-button {
-  border: 1px #C4710D solid;
-  color: #C4710D;
+  border: 1px #c4710d solid;
+  color: #c4710d;
   border-radius: 4px;
   font-size: 700;
   font-weight: 700;
@@ -204,7 +297,7 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 1540px;
-  background-color: #F6F7F9;
+  background-color: #f6f7f9;
   margin-top: 50px;
   padding: 50px;
   margin-right: 75px;
@@ -217,15 +310,15 @@ a {
   background-color: white;
   padding: 20px 17px 12px 25px;
   border-radius: 8px;
-  border: 1px solid #D1D2E0;
+  border: 1px solid #d1d2e0;
   gap: 15px;
   margin-bottom: 16px;
   transition: linear;
 }
 
 .focus-item:hover {
-  border: 1px solid #6D28D2;
-  border-left: 8px solid #6D28D2;
+  border: 1px solid #6d28d2;
+  border-left: 8px solid #6d28d2;
   transition: 0.3s;
 }
 
@@ -237,94 +330,9 @@ a {
 }
 
 .focus-item-bottom-link {
-  color: #6D28D2;
+  color: #6d28d2;
 }
 
 .focus-title {
   margin-bottom: 31px;
-=======
-.course-spn {
-  font-weight: 700;
-}
-
-.course-text {
-  text-align: center;
-  padding: 16px 0;
-  font-size: 15px;
-}
-
-.header__main {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  justify-content: center;
-  padding: 12px 24px;
-  box-shadow: 2px 2px 2px silver;
-}
-
-.header__menu {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  justify-content: center;
-}
-
-.header__link {
-  color: #303141;
-}
-
-.header__explore {
-  color: #303141;
-}
-
-#headerInput {
-  width: 545px;
-  padding: 14px 20px;
-  border-radius: 25px;
-}
-
-.header__login {
-  background-color: white;
-  border: 3px solid #6d28d2;
-  border-radius: 4px;
-  padding: 15px;
-  color: #6d28d2;
-}
-
-.header__signup {
-  background-color: #6d28d2;
-  border: 3px solid #6d28d2;
-  border-radius: 4px;
-  color: white;
-  padding: 15px;
-}
-
-.header__space-btn {
-  background-color: white;
-  border: 3px solid #6d28d2;
-  padding: 15px;
-}
-
-.header__topColor {
-  background-color: #c2e9eb;
-}
-
-.hero {
-  padding: 64px 0 140px 0;
-  background-image: url("/assets/hero main.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.hero__skills-box {
-  background-color: #fff;
-  padding: 24px;
-  max-width: 40%;
-  margin-left: 40px;
-}
-
-.hero__title {
-  font-size: 30px;
-  margin-bottom: 8px;
->>>>>>> origin/websayt
 }/*# sourceMappingURL=style.css.map */
