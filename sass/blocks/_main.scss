@@ -1,0 +1,66 @@
+.top-reload-wrapper{
+    border: solid #C4710D 2px;
+    padding: 17px 15px 15px 65px;
+    border-radius: 16px;
+}
+.bold{
+    @include font(16px , 700);
+    margin-bottom: 2px;
+}
+.top-reload-text{
+    margin-bottom: 16px;
+}
+.top-reload-button{
+    border: 1px #C4710D solid; 
+    color: #C4710D;
+    border-radius: 4px;
+    @include font(13px , 700);
+    padding: 11px 13px;
+    background-color: white;
+}
+.nob{
+    border: none;
+}
+.bottom-reload-img{
+    width: 1540px;
+}
+
+.focus-wrapper-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1540px;
+    background-color: #F6F7F9;   
+    margin-top: 50px;
+    padding: 50px;
+    margin-right: 75px;
+   
+}
+.focus-item{
+    width: 530px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px 17px 12px 25px;
+    border-radius: 8px;
+    border: 1px solid #D1D2E0;
+    gap: 15px;
+    margin-bottom: 16px;
+    transition: linear;
+}
+.focus-item:hover{
+   border: 1px solid $purple-color;
+   border-left: 8px solid $purple-color; 
+   transition: 0.3s;
+}
+.focus-item-bottom-text{
+    @include font(14px , 400);
+    margin-top: 7px;
+    margin-bottom: 13px;
+}
+.focus-item-bottom-link{
+    color: $purple-color;
+}
+.focus-title{
+    margin-bottom: 31px;
+}
