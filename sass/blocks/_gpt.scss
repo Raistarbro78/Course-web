@@ -1,0 +1,61 @@
+.gpt_big_wrapper {
+  background-color: rgba(209, 210, 224, 1);
+  max-width: max-content;
+  padding: 48px 74px;
+}
+.trend_heading {
+  font-family: Noto Serif;
+  font-weight: 700;
+  font-size: 30.9px;
+  line-height: 40px;
+  letter-spacing: -0.16px;
+  vertical-align: middle;
+}
+.line_horz {
+  color: rgba(209, 210, 224, 1);
+  margin-top: 20px;
+}
+.gpt_wrapper {
+  margin-top: 32px;
+}
+
+.gpt_card {
+}
+.gpt_heading {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 30.9px;
+  line-height: 38.4px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+
+.gpt_texts_wrapper {
+    margin-top: 16px;
+}
+.gpt_text {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 17.6px;
+  line-height: 21.6px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: rgba(109, 40, 210, 1);
+}
+.gpt_mini_text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 13.2px;
+  line-height: 19.6px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: rgba(145, 148, 172, 1);
+}
+.gpt_btn {
+    padding: 12px 68px;
+    border: 1px rgba(109, 40, 210, 1) solid;
+    color: transparent;
+    color: rgba(109, 40, 210, 1);
+    border-radius: 8px;
+    margin-top: 34px;
+}

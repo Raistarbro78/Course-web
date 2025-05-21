@@ -30,7 +30,13 @@ input {
   height: 441.25px;
   top: 4375.64px;
   left: -7.5px;
+  overflow: hidden;
+  overflow: scroll;
   background: rgba(246, 247, 249, 1);
+} 
+
+.achievement_wrapper::-webkit-scrollbar {
+  display: none;              
 }
 
 
@@ -43,7 +49,7 @@ input {
   border-radius: 8px;
   border-width: 1px;
 }
-
+ 
 .card_wrapper:hover{
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15),
   0 10px 10px rgba(0, 0, 0, 0.1);
@@ -58,7 +64,7 @@ transition: 0.7s ease-in-out;
   margin-top: 16px;
 }
 .darker {
-  color: rgba(42, 43, 63, 1);
+  color: rgb(110, 13, 255);
   font-weight: 700;
   font-size: 13.7px;
   line-height: 19.6px;
@@ -86,6 +92,13 @@ transition: 0.7s ease-in-out;
   position: relative;
   top: 50px;
   left: 75px;
+
+}
+
+.price_link{
+  color: rgba(109, 40, 210, 1);
+  margin-top: 10px;
+
 }
 
 .overflow_heading {
@@ -174,7 +187,8 @@ transition: 0.7s ease-in-out;
 }
 
 .other_wrapper{
-  display: inline;
+  display: grid;
+  column-gap: 40px ;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(1,1fr);
 }
