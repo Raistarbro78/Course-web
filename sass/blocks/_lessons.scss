@@ -1,0 +1,34 @@
+.bi-star-fill {
+  color: #c4710d;
+}
+.lessons__star-number {
+  color: #c4710d;
+}
+.lessons__price {
+  @include d-flex(space-between);
+}
+.lessons__star {
+  @include d-flex(space-between);
+}
+.lessons_main_wrapper {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+
+}
+
+.lessons__btn {
+    background-color: #C2E9EB;
+    border: none;
+    padding: 5px;
+    color: #216265;
+    font-weight: 800;
+}
+.lessons__title {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.lessons__text {
+    margin-bottom: 31px;
+}

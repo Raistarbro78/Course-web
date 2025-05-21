@@ -1,0 +1,8 @@
+.companies__title {
+    color: #595C73;
+    text-align: center;
+    margin: 63px 0 28px;
+}
+.companies__logos {
+    @include d-flex(space-between,0);
+}

@@ -1,0 +1,64 @@
+.course-spn {
+  font-weight: 700;
+}
+.course-text {
+  text-align: center;
+  padding: 16px 0;
+  font-size: 15px;
+}
+
+.header__main {
+  @include d-flex(center, 20px);
+  padding: 12px 24px;
+  box-shadow: 2px 2px 2px silver;
+}
+.header__menu {
+  @include d-flex(center, 20px);
+}
+.header__link {
+  color: #303141;
+}
+.header__explore {
+  color: #303141;
+}
+#headerInput {
+  width: 545px;
+  padding: 14px 20px;
+  border-radius: 25px;
+}
+.header__login {
+  background-color: white;
+  border: 3px solid #6d28d2;
+  border-radius: 4px;
+  padding: 15px;
+  color: #6d28d2;
+  transition: 0.3s all linear;
+}
+.bi-list {
+  display: none;
+}
+.header__signup {
+  background-color: #6d28d2;
+  border: 3px solid #6d28d2;
+  border-radius: 4px;
+  color: white;
+  padding: 15px;
+  transition: 0.3s all linear;
+}
+.header__space-btn {
+  background-color: white;
+  border: 3px solid #6d28d2;
+  padding: 15px;
+}
+
+.header__topColor {
+  background-color: #c2e9eb;
+}
+.header__login:hover {
+  background-color: #6d28d2;
+  color: white;
+}
+.header__signup:hover {
+  background-color: white;
+  color: #6d28d2;
+}
