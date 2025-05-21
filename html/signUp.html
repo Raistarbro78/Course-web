@@ -1,42 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form Validation</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
     
-  <form id="signupForm">
-    <label>
+    <form id="signupForm">
       Name:
-      <input type="text" id="name" required>
-      <small class="error" id="nameError"></small>
-    </label>
-  
-    <label>
+      <input id="name" type="text" />
+      <div id="nameError" class="error"></div>
       Email:
-      <input type="email" id="email" required>
-      <small class="error" id="emailError"></small>
-    </label>
-    
-    <label>
+      <input id="email" type="email" />
+      <div id="emailError" class="error"></div>
       Password:
-      <input type="password" id="password" required>
-      <small class="error" id="passwordError"></small>
-    </label>
-  
-    <label>
-      Confirm Password:
-      <input type="password" id="confirmPassword" required>
-      <small class="error" id="confirmError"></small>
-    </label>
-  
-    <button class="signup-button clean" type="submit">Sign Up</button>
-  </form>
-  
+      <input id="password" type="password" />
+      <div id="passwordError" class="error"></div>
+      Confirm password:
+      <input id="confirmPassword" type="password" />
+      <div id="confirmError" class="error"></div>
+    
+      <button type="submit" class="btn">Sign Up</button>
+    </form>
+    
 
-  <script src="../js/product.js"></script>
-</body>
+    <script src="../js/product.js"></script>
+  </body>
 </html>

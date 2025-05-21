@@ -1,4 +1,8 @@
-document.getElementById("signupForm").addEventListener("submit", function (e) {
+
+const singUpForm = document.getElementById("signupForm")
+console.log(singUpForm);
+
+singUpForm.addEventListener("submit", function (e) {
   e.preventDefault();
 
   let hasError = false;
@@ -26,6 +30,7 @@ document.getElementById("signupForm").addEventListener("submit", function (e) {
     hasError = true;
   }
 
+
   
   if (password !== confirmPassword) {
     document.getElementById("confirmError").textContent = "Passwords do not match.";
@@ -40,11 +45,7 @@ document.getElementById("signupForm").addEventListener("submit", function (e) {
     window.location.href = "./index.html"
 }
 
-document.querySelector(".header__signup").style.display.none
-
-document.querySelector(".header__login").style.display.none
 });
-
 
 
 
