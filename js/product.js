@@ -1,40 +1,51 @@
-document.getElementById("myForm").addEventListener("submit", function (e) {
-    e.preventDefault();
-  
-    document.querySelectorAll(".error").forEach(el => el.textContent = "");
-  
-    let isValid = true;
-  
-    const name = document.getElementById("name").value.trim();
-    const email = document.getElementById("email").value.trim();
-    const password = document.getElementById("password").value;
-  
-    if (name.length < 2) {
-      document.getElementById("nameError").textContent = "Name must be at least 2 characters.";
-      isValid = false;
-    }
-  
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      document.getElementById("emailError").textContent = "Please enter a valid email.";
-      isValid = false;
-    }
-  
-    const passwordRegex = /^(?=.*\d).{8,}$/;
-    if (!passwordRegex.test(password)) {
-      document.getElementById("passwordError").textContent = "Password must be 8+ chars and include a number.";
-      isValid = false;
-    }
-  
-    if (isValid) {
-      alert("Form submitted successfully!");
-    }
+document.getElementById("signupForm").addEventListener("submit", function (e) {
+  e.preventDefault();
 
-    if(email === "asil@gmail.com" && password === "123"){
-        window.location.href = "./index.html"
-    }
+  let hasError = false;
 
-  });
+  document.querySelectorAll(".error").forEach(el => el.textContent = "");
+
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const password = document.getElementById("password").value;
+  const confirmPassword = document.getElementById("confirmPassword").value;
+
+  if (name === "") {
+    document.getElementById("nameError").textContent = "Name is required.";
+    hasError = true;
+  }
+
+
+  if (!/^\S+@\S+\.\S+$/.test(email)) {
+    document.getElementById("emailError").textContent = "Invalid email address.";
+    hasError = true;
+  }
+
+  if (password.length < 6) {
+    document.getElementById("passwordError").textContent = "Password must be at least 6 characters.";
+    hasError = true;
+  }
+
+  
+  if (password !== confirmPassword) {
+    document.getElementById("confirmError").textContent = "Passwords do not match.";
+    hasError = true;
+  }
+
+  if (!hasError) {
+    alert("Form submitted successfully!");
+  }
+
+  if(email === "asil@gmail.com" && password === "123"){
+    window.location.href = "./index.html"
+}
+
+document.querySelector(".header__signup").style.display.none
+
+document.querySelector(".header__login").style.display.none
+});
+
+
 
 
   

@@ -102,6 +102,7 @@
   display: flex;
   flex-direction: column;
   column-gap:10px;
+  
 }
 .heading_text {
   font-weight: 700;
@@ -122,7 +123,8 @@
 .contents_wrapper{
   display: flex;
   gap: 30px;
-  
+align-items: center;
+align-content: center;
 }
 
 .hero {
