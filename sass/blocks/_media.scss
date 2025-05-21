@@ -1,0 +1,58 @@
+// header hero mediasi
+
+@media only screen and (max-width: 1410px) {
+  #headerInput {
+    width: 460px;
+  }
+  .course-text {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 1310px) {
+  .header__menu {
+    display: none;
+  }
+  .bi-list {
+    display: block;
+  }
+  .br {
+    display: none;
+  }
+  .listbox-text {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 1085px) {
+  .reim__listbox-title {
+    font-size: 14px;
+  }
+  .reim__listbox-text {
+    font-size: 13px;
+  }
+}
+
+
+@media only screen and (max-width: 911px) {
+    .reim__listbox-title {
+        font-size: 12px;
+      }
+      .reim__listbox-text {
+        font-size: 10px;
+      }
+  }
+  
+@media only screen and (max-width: 905px) {
+  #headerInput {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 872px) {
+  .companies__logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+  }
+}
+
+
+// header hero mediasi
