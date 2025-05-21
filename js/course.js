@@ -2213,6 +2213,6 @@ const courses = [
 
 let wrapper = document.querySelector(".wrapper")
 
-wrapper.insertAdjacentHTML("beforeend", (e){
+wrapper.insertAdjacentHTML("beforeend", (e) => {
   
 })
