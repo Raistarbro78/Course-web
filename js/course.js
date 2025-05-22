@@ -6,7 +6,7 @@ const courses = [
     rating: 4.4,
     price: 47.13,
     discountPrice: 10.2,
-    img: "assets/1.png",
+    img: "imgs/1.png",
     about:
       "Ushbu kurs sizga JavaScript Algorithms and Data Structures Masterclass bo\u2018yicha mukammal bilim beradi. Darslar interaktiv va amaliy misollar bilan boyitilgan.",
     comments: [
@@ -79,7 +79,7 @@ const courses = [
     rating: 4.7,
     price: 80.06,
     discountPrice: 15.1,
-    img: "assets/2.png",
+    img: "imgs/2.png",
     about:
       "Bu kurs orqali siz C++ Data Structures & Algorithms + LEETCODE bo\u2018yicha nazariy va amaliy bilimga ega bo\u2018lasiz.",
     comments: [
@@ -153,7 +153,7 @@ const courses = [
     rating: 4.8,
     price: 41.05,
     discountPrice: 12.19,
-    img: "assets/3.png",
+    img: "imgs/3.png",
     about:
       "Bu kurs orqali siz Java Data Structures and Algorithms Masterclass bo\u2018yicha nazariy va amaliy bilimga ega bo\u2018lasiz.",
     comments: [
@@ -226,7 +226,7 @@ const courses = [
     rating: 4.7,
     price: 28.31,
     discountPrice: 15.84,
-    img: "assets/4.png",
+    img: "imgs/4.png",
     about:
       "Ushbu kurs sizga The Complete Data Structures and Algorithms Course in Java bo\u2018yicha mukammal bilim beradi. Darslar interaktiv va amaliy misollar bilan boyitilgan.",
     comments: [
@@ -300,7 +300,7 @@ const courses = [
     rating: 4.3,
     price: 44.59,
     discountPrice: 12.22,
-    img: "assets/5.png",
+    img: "imgs/5.png",
     about:
       "Data Structures and Algorithms Complete Course mavzusiga oid eng asosiy tushunchalar va amaliyotlarni o\u2018z ichiga oladi.",
     comments: [
@@ -373,7 +373,7 @@ const courses = [
     rating: 4.7,
     price: 86.69,
     discountPrice: 15.47,
-    img: "assets/6.png",
+    img: "imgs/6.png",
     about:
       "Bu kurs orqali siz 100 Days of Code bo\u2018yicha nazariy va amaliy bilimga ega bo\u2018lasiz.",
     comments: [
@@ -447,7 +447,7 @@ const courses = [
     rating: 4.7,
     price: 78.17,
     discountPrice: 12.16,
-    img: "assets/7.png",
+    img: "imgs/7.png",
     about:
       "Agar siz The Complete Full-Stack Web Development Bootcamp'ni mukammal o\u2018rganmoqchi bo\u2018lsangiz, ushbu kurs aynan siz uchun. Bosqichma-bosqich tushuntirilgan.",
     comments: [
@@ -521,7 +521,7 @@ const courses = [
     rating: 4.8,
     price: 23.24,
     discountPrice: 16.85,
-    img: "assets/8.png",
+    img: "imgs/8.png",
     about:
       "Ushbu kurs sizga [NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02 bo\u2018yicha mukammal bilim beradi. Darslar interaktiv va amaliy misollar bilan boyitilgan.",
     comments: [
@@ -595,7 +595,7 @@ const courses = [
     rating: 4.4,
     price: 63.3,
     discountPrice: 10.67,
-    img: "assets/9.png",
+    img: "imgs/9.png",
     about:
       "Bu kurs orqali siz Ultimate AWS Certified Solutions Architect Associate bo\u2018yicha nazariy va amaliy bilimga ega bo\u2018lasiz.",
     comments: [
@@ -669,7 +669,7 @@ const courses = [
     rating: 4.4,
     price: 93.85,
     discountPrice: 17.19,
-    img: "assets/10.png",
+    img: "imgs/10.png",
     about:
       "Agar siz The Complete Python Bootcamp From Zero to Hero'ni mukammal o\u2018rganmoqchi bo\u2018lsangiz, ushbu kurs aynan siz uchun. Bosqichma-bosqich tushuntirilgan.",
     comments: [
@@ -744,7 +744,7 @@ const courses = [
     rating: 4.7,
     price: 76.35,
     discountPrice: 10.4,
-    img: "assets/11.png",
+    img: "imgs/11.png",
     about:
       "Building a Parser from scratch mavzusiga oid eng asosiy tushunchalar va amaliyotlarni o\u2018z ichiga oladi.",
     comments: [
@@ -819,7 +819,7 @@ const courses = [
     rating: 4.5,
     price: 35.29,
     discountPrice: 12.54,
-    img: "assets/12.png",
+    img: "imgs/12.png",
     about:
       "11 Essential Coding Interview Questions + Coding Exercises! mavzusiga oid eng asosiy tushunchalar va amaliyotlarni o\u2018z ichiga oladi.",
     comments: [
@@ -892,7 +892,7 @@ const courses = [
     rating: 4.3,
     price: 73.05,
     discountPrice: 17.97,
-    img: "assets/13.png",
+    img: "imgs/13.png",
     about:
       "Agar siz Data Structures 'ni mukammal o\u2018rganmoqchi bo\u2018lsangiz, ushbu kurs aynan siz uchun. Bosqichma-bosqich tushuntirilgan.",
     comments: [
@@ -966,7 +966,7 @@ const courses = [
     rating: 4.7,
     price: 76.79,
     discountPrice: 10.96,
-    img: "assets/14.png",
+    img: "imgs/14.png",
     about:
       "Windows Programming using Visual C++ and MFC mavzusiga oid eng asosiy tushunchalar va amaliyotlarni o\u2018z ichiga oladi.",
     comments: [
@@ -1039,7 +1039,7 @@ const courses = [
     rating: 4.6,
     price: 20.18,
     discountPrice: 13.01,
-    img: "assets/15.png",
+    img: "imgs/15.png",
     about:
       "Agar siz Big O Notation for Algorithms in plain English'ni mukammal o\u2018rganmoqchi bo\u2018lsangiz, ushbu kurs aynan siz uchun. Bosqichma-bosqich tushuntirilgan.",
     comments: [
@@ -1112,7 +1112,7 @@ const courses = [
     rating: 4.6,
     price: 55.95,
     discountPrice: 12.29,
-    img: "assets/16.png",
+    img: "imgs/16.png",
     about:
       "Bu kurs orqali siz Java Tutorial for Complete Beginners bo\u2018yicha nazariy va amaliy bilimga ega bo\u2018lasiz.",
     comments: [
@@ -1185,7 +1185,7 @@ const courses = [
     rating: 4.4,
     price: 82.14,
     discountPrice: 16.77,
-    img: "assets/17.png",
+    img: "imgs/17.png",
     about:
       "Automate the Boring Stuff with Python Programming mavzusiga oid eng asosiy tushunchalar va amaliyotlarni o\u2018z ichiga oladi.",
     comments: [
@@ -1258,7 +1258,7 @@ const courses = [
     rating: 4.3,
     price: 24.73,
     discountPrice: 17.03,
-    img: "assets/18.png",
+    img: "imgs/18.png",
     about:
       "Agar siz Machine Learning A-Z'ni mukammal o\u2018rganmoqchi bo\u2018lsangiz, ushbu kurs aynan siz uchun. Bosqichma-bosqich tushuntirilgan.",
     comments: [
@@ -1334,7 +1334,7 @@ const courses = [
     rating: 4.6,
     price: 35.09,
     discountPrice: 16.59,
-    img: "assets/19.png",
+    img: "imgs/19.png",
     about:
       "Bu kurs orqali siz The Web Developer Bootcamp 2025 bo\u2018yicha nazariy va amaliy bilimga ega bo\u2018lasiz.",
     comments: [
@@ -1407,7 +1407,7 @@ const courses = [
     rating: 4.4,
     price: 73.54,
     discountPrice: 16.85,
-    img: "assets/20.png",
+    img: "imgs/20.png",
     about:
       "The Complete JavaScript Course 2025 mavzusiga oid eng asosiy tushunchalar va amaliyotlarni o\u2018z ichiga oladi.",
     comments: [
@@ -1480,7 +1480,7 @@ const courses = [
     rating: 4.4,
     price: 77.57,
     discountPrice: 12.14,
-    img: "assets/21.png",
+    img: "imgs/21.png",
     about:
       "Bu kurs orqali siz Adobe Photoshop Masterclass with Photoshop 2025 + AI bo\u2018yicha nazariy va amaliy bilimga ega bo\u2018lasiz.",
     comments: [
@@ -1554,7 +1554,7 @@ const courses = [
     rating: 4.5,
     price: 94.12,
     discountPrice: 13.98,
-    img: "assets/22.png",
+    img: "imgs/22.png",
     about:
       "Bu kurs orqali siz The Ultimate Drawing Course - Beginner to Advanced bo\u2018yicha nazariy va amaliy bilimga ega bo\u2018lasiz.",
     comments: [
@@ -1628,7 +1628,7 @@ const courses = [
     rating: 4.4,
     price: 66.11,
     discountPrice: 14.18,
-    img: "assets/23.png",
+    img: "imgs/23.png",
     about:
       "Ushbu kurs sizga After Effects CC Masters bo\u2018yicha mukammal bilim beradi. Darslar interaktiv va amaliy misollar bilan boyitilgan.",
     comments: [
@@ -1702,7 +1702,7 @@ const courses = [
     rating: 4.7,
     price: 54.24,
     discountPrice: 14.32,
-    img: "assets/24.png",
+    img: "imgs/24.png",
     about:
       "Agar siz Complete Blender Creator'ni mukammal o\u2018rganmoqchi bo\u2018lsangiz, ushbu kurs aynan siz uchun. Bosqichma-bosqich tushuntirilgan.",
     comments: [
@@ -1776,11 +1776,11 @@ const courses = [
     rating: 4.5,
     price: 62.53,
     discountPrice: 14.25,
-    img: "assets/25.png",
+    img: "imgs/25.png",
     about:
       "Ushbu kurs sizga Character Art School bo\u2018yicha mukammal bilim beradi. Darslar interaktiv va amaliy misollar bilan boyitilgan.",
     comments: [
-      {
+      {     
         username: "design2code",
         comment: "Ko\u2018proq testlar bo\u2018lsa yaxshi bo\u2018lardi.",
         date: "2025-03-19",
@@ -1849,7 +1849,7 @@ const courses = [
     rating: 4.2,
     price: 50.49,
     discountPrice: 16.59,
-    img: "assets/26.png",
+    img: "imgs/26.png",
     about:
       "Bu kurs orqali siz The Complete SQL Bootcamp bo\u2018yicha nazariy va amaliy bilimga ega bo\u2018lasiz.",
     comments: [
@@ -1923,7 +1923,7 @@ const courses = [
     rating: 4.6,
     price: 58.47,
     discountPrice: 12.21,
-    img: "assets/27.png",
+    img: "imgs/27.png",
     about:
       "Ushbu kurs sizga An Entire MBA in 1 Course bo\u2018yicha mukammal bilim beradi. Darslar interaktiv va amaliy misollar bilan boyitilgan.",
     comments: [
@@ -1996,7 +1996,7 @@ const courses = [
     rating: 4.5,
     price: 76.13,
     discountPrice: 13.12,
-    img: "assets/28.png",
+    img: "imgs/28.png",
     about:
       "Ushbu kurs sizga Zero to Hero in SQL bo\u2018yicha mukammal bilim beradi. Darslar interaktiv va amaliy misollar bilan boyitilgan.",
     comments: [
@@ -2070,7 +2070,7 @@ const courses = [
     rating: 4.8,
     price: 87.61,
     discountPrice: 15.15,
-    img: "assets/29.png",
+    img: "imgs/29.png",
     about:
       "Bu kurs orqali siz Microsoft Power BI Desktop for Business Intelligence bo\u2018yicha nazariy va amaliy bilimga ega bo\u2018lasiz.",
     comments: [
@@ -2143,7 +2143,7 @@ const courses = [
     rating: 4.7,
     price: 92.99,
     discountPrice: 10.33,
-    img: "assets/30.png",
+    img: "imgs/30.png",
     about:
       "Ushbu kurs sizga PMP Certification Exam Prep Course 35 PDU Contact bo\u2018yicha mukammal bilim beradi. Darslar interaktiv va amaliy misollar bilan boyitilgan.",
     comments: [
