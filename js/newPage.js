@@ -16,7 +16,7 @@ function displaycode(courses) {
             <span class="original-price">${el.discountPrice}</span>
         </div>x
         <div class="reviews">
-            <img src="./imgs.1.png"/>
+            <img src="${el.img}" alt="salom">
         </div>
         <div class="bestseller">Bestseller</div></a>
         </div>
