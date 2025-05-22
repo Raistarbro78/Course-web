@@ -23,5 +23,4 @@ function displaycode(courses) {
     }
   }
   
-  
   displaycode(courses)
