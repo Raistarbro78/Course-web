@@ -1,5 +1,6 @@
-let signup = document.querySelector(".header__signup");
+let btn = document.querySelector(".lessons__btn")
 
-signup.addEventListener("click", (e) => {
-    window.location.href = "./signUp.html"
+btn.addEventListener("click", (el) =>{
+  window.location.href = "./newPage.html"
 })
+

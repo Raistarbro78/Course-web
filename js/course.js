@@ -2210,25 +2210,3 @@ const courses = [
     ],
   },
 ];
-
-let wrapper = document.querySelector(".wrapper")
-
-
-
-function displaycode(courses) {
-  for (const el of courses) {
-    wrapper.insertAdjacentHTML("beforeend", `<div class="course-title">${el.title}</div>
-      <div class="instructor">Colt Steele</div>
-      <div class="rating">
-          <span class="rating-number">4.7</span>
-          <span class="stars">★★★★★</span>
-      </div>
-      <div class="price">
-          <span class="current-price">$9.99</span>
-          <span class="original-price">$74.99</span>
-      </div>
-      <div class="reviews">(29,876 ratings)</div>
-      <div class="bestseller">Bestseller</div>`
-    )
-  }
-}
