@@ -21,28 +21,36 @@
 .header__explore {
   color: #303141;
 }
+.header__menu2 {
+  margin-top: 20px;
+}
 #headerInput {
   width: 545px;
   padding: 14px 20px;
   border-radius: 25px;
 }
-.header__login {
+.header__login1 {
   background-color: white;
   border: 3px solid #6d28d2;
   border-radius: 4px;
   padding: 15px;
   color: #6d28d2;
+  margin-top: 20px;
+  margin-bottom: 20px;
   transition: 0.3s all linear;
 }
 .bi-list {
   display: none;
 }
-.header__signup {
+.header__signup1 {
   background-color: #6d28d2;
   border: 3px solid #6d28d2;
   border-radius: 4px;
   color: white;
   padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
   transition: 0.3s all linear;
 }
 .header__space-btn {
@@ -54,11 +62,17 @@
 .header__topColor {
   background-color: #c2e9eb;
 }
-.header__login:hover {
+.header__login1:hover {
   background-color: #6d28d2;
   color: white;
 }
-.header__signup:hover {
+.header__signup1:hover {
   background-color: white;
   color: #6d28d2;
+}
+.none-menu {
+  display: none;
+}
+.header__menu {
+  padding: 20px;
 }

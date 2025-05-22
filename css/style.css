@@ -87,18 +87,24 @@ a {
   color: #303141;
 }
 
+.header__menu2 {
+  margin-top: 20px;
+}
+
 #headerInput {
   width: 545px;
   padding: 14px 20px;
   border-radius: 25px;
 }
 
-.header__login {
+.header__login1 {
   background-color: white;
   border: 3px solid #6d28d2;
   border-radius: 4px;
   padding: 15px;
   color: #6d28d2;
+  margin-top: 20px;
+  margin-bottom: 20px;
   transition: 0.3s all linear;
 }
 
@@ -106,12 +112,14 @@ a {
   display: none;
 }
 
-.header__signup {
+.header__signup1 {
   background-color: #6d28d2;
   border: 3px solid #6d28d2;
   border-radius: 4px;
   color: white;
   padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   transition: 0.3s all linear;
 }
 
@@ -125,14 +133,22 @@ a {
   background-color: #c2e9eb;
 }
 
-.header__login:hover {
+.header__login1:hover {
   background-color: #6d28d2;
   color: white;
 }
 
-.header__signup:hover {
+.header__signup1:hover {
   background-color: white;
   color: #6d28d2;
+}
+
+.none-menu {
+  display: none;
+}
+
+.header__menu {
+  padding: 20px;
 }
 
 .hero {
@@ -145,7 +161,7 @@ a {
 .hero__skills-box {
   background-color: #fff;
   padding: 24px;
-  max-width: 40%;
+  width: 40%;
   margin-left: 40px;
   border-radius: 5px;
 }
@@ -178,6 +194,10 @@ a {
   margin-top: 24px;
 }
 
+.lessons__main_box {
+  width: 100%;
+}
+
 .reim__listbox-title {
   margin: 16px 0 8px 0;
 }
@@ -194,7 +214,7 @@ a {
 }
 
 .reimange__img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .listbox-text {
@@ -263,6 +283,10 @@ a {
   gap: 50px;
 }
 
+.lessons {
+  padding: 20px;
+}
+
 .lessons__btn {
   background-color: #C2E9EB;
   border: none;
@@ -288,6 +312,15 @@ a {
     text-align: left;
   }
 }
+@media only screen and (max-width: 1360px) {
+  .lessons_main_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .lessons__main_box {
+    width: 50%;
+  }
+}
 @media only screen and (max-width: 1310px) {
   .header__menu {
     display: none;
@@ -301,13 +334,8 @@ a {
   .listbox-text {
     font-size: 10px;
   }
-}
-@media only screen and (max-width: 1360px) {
-  .lessons_main_wrapper {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+  .header__btns {
+    display: none;
   }
 }
 @media only screen and (max-width: 1085px) {
@@ -320,6 +348,22 @@ a {
   .lessons__img {
     width: 100%;
   }
+  .reimagine__menu-boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .lessons_main_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .reimagine__list-box {
+    width: 50%;
+  }
+  .companies__logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 @media only screen and (max-width: 911px) {
   .reim__listbox-title {
@@ -328,15 +372,18 @@ a {
   .reim__listbox-text {
     font-size: 10px;
   }
+  .lessons_main_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 @media only screen and (max-width: 905px) {
   #headerInput {
     width: 300px;
   }
 }
-@media only screen and (max-width: 872px) {
-  .companies__logos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+@media only screen and (max-width: 789px) {
+  .hero__skills-box {
+    width: 70%;
   }
 }/*# sourceMappingURL=style.css.map */
