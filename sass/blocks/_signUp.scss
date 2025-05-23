@@ -1,0 +1,197 @@
+form {
+  max-width: 400px;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.2rem;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  height: 1rem;
+}
+
+.achievement_wrapper {
+  width: 1440px;
+  height: 441.25px;
+  top: 4375.64px;
+  left: -7.5px;
+  overflow: hidden;
+  overflow: scroll;
+  background: rgba(246, 247, 249, 1);
+} 
+
+.achievement_wrapper::-webkit-scrollbar {
+  display: none;              
+}
+
+
+.overflow_wrapper {
+}
+.card_wrapper {
+  background-color: #fff;
+  margin-top: 32px;
+  height: 273.25px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+ 
+.card_wrapper:hover{
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15),
+  0 10px 10px rgba(0, 0, 0, 0.1);
+cursor: pointer;
+transition: 0.7s ease-in-out;
+}
+
+.card_content {
+  padding: 25px 25px;
+}
+.card_text {
+  margin-top: 16px;
+}
+.darker {
+  color: rgb(110, 13, 255);
+  font-weight: 700;
+  font-size: 13.7px;
+  line-height: 19.6px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+.purple {
+  color: rgba(109, 40, 210, 1);
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 13.2px;
+  line-height: 19.6px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+.card_info {
+  margin-top: 19.19px;
+}
+
+.price_link {
+  margin-top: 28px;
+}
+
+.inner_wrapper {
+  position: relative;
+  top: 50px;
+  left: 75px;
+
+}
+
+.price_link{
+  color: rgba(109, 40, 210, 1);
+  margin-top: 10px;
+
+}
+
+.overflow_heading {
+  font-weight: 700;
+  font-size: 30.9px;
+  line-height: 40px;
+  letter-spacing: -0.16px;
+  vertical-align: middle;
+}
+
+.btn{
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover{
+  background: linear-gradient(135deg, #4338ca, #2563eb); 
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+#signupForm{
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 350px;
+  position: absolute;
+  left: 900px;
+  top: 250px;
+}
+
+#name{
+  width: 100%;
+  padding: 12px;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  color: #333;
+  transition: 0.3s ease;
+}
+
+#email{
+  width: 100%;
+  padding: 12px;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  color: #333;
+  transition: 0.3s ease;
+}
+
+#password{
+  width: 100%;
+  padding: 12px;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  color: #333;
+  transition: 0.3s ease;
+}
+
+#confirmPassword{
+  width: 100%;
+  padding: 12px;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  color: #333;
+  transition: 0.3s ease;
+}
+
+.other_wrapper{
+  display: grid;
+  column-gap: 40px ;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,1fr);
+}

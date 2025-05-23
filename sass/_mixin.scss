@@ -1,3 +1,7 @@
+@mixin font($fs , $fw){
+    font-size: $fw;
+    font-weight: $fw;
+}
 @mixin d-flex($jc: center, $g: 0) {
   display: flex;
   align-items: center;

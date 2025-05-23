@@ -6,3 +6,19 @@
 .companies__logos {
     @include d-flex(space-between,0);
 }
+
+.card_info-texts{
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.texts_wrapper_links{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_content:hover{
+    transform: translateY(-5px);
+    transition: 0.4s;
+}

@@ -8,3 +8,9 @@ menuIcon.addEventListener("click", function () {
     menu.style.display = "block";
   }
 });
+let btn = document.querySelector(".lessons__btn")
+
+btn.addEventListener("click", (el) =>{
+  window.location.href = "./newPage.html"
+})
+
