@@ -1,54 +1,110 @@
-.footer {
-    background-color: #1f2937;
-    color: #ffffff;
-    padding: 40px 20px 20px;
-    font-family: 'Segoe UI', sans-serif;
-  }
-  
-  .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    gap: 20px;
-  }
-  
-  .footer-section {
-    flex: 1;
-    min-width: 200px;
-  }
-  
-  .footer-section h3, .footer-section h4 {
-    color: #facc15;
-    margin-bottom: 10px;
-  }
-  
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-section ul li {
-    margin-bottom: 8px;
-  }
-  
-  .footer-section ul li a {
-    color: #d1d5db;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-section ul li a:hover {
-    color: #ffffff;
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    margin-top: 30px;
-    border-top: 1px solid #374151; 
-    padding-top: 15px;
-    font-size: 14px;
-    color: #9ca3af; 
-  }
-  
+.footer__online-world {
+  background-color: #1d1e27;
+  margin-top: 410px;
+  padding: 18px 48px;
+  @include d-flex(space-between, 10px);
+  margin-bottom: 1px;
+}
+.online-world-left-title {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.online-world-left-text {
+  color: white;
+}
+.online-world-left-btn {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  padding: 10px 13px;
+}
+
+.footer__career-skills {
+  background-color: #1d1e27;
+  @include d-flex(space-between, 0);
+  padding: 35px 48px;
+}
+.footer__career-skill-text {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+.footer__career-skill-link {
+  color: #c0c4fc;
+  font-weight: bold;
+  font-size: 18px;
+}
+.footer__career-skill-logos {
+  @include d-flex(0, 24px);
+}
+
+.footer__main-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 40px;
+}
+.footer__main-side {
+  background-color: #1d1e27;
+  padding: 41px 48px;
+  margin-top: 1px;
+}
+.footere__main-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  // gap: 32px;
+}
+.main-menu-list {
+  width: 23%;
+}
+.mini-menu-text {
+  color: white;
+  margin: 6px 0;
+}
+.main-menu-title {
+  color: white;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer__info {
+  background-color: #111116;
+  padding: 40px 48px;
+}
+.info-mini-menu-list {
+  display: flex;
+  flex-direction: column;
+}
+.info-mini-menu-link {
+  color: white;
+  margin: 6px 0;
+}
+.footer__info-menu {
+  @include d-flex(space-between, 0);
+}
+.info-mini-menu-title {
+  color: white;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+.footer__logo {
+  background-color: #111116;
+  padding: 40px 48px;
+}
+.footer-img {
+  @include d-flex(0,16px);
+  color: white;
+}
+.footer__settings {
+  color: white;
+}
+.footer__lang {
+  color: white;
+}
+.footer__logo {
+  @include d-flex(space-between,0);
+}

@@ -350,7 +350,6 @@ input {
 }
 
 .achievement_wrapper {
-  width: 1440px;
   height: 441.25px;
   top: 4375.64px;
   left: -7.5px;
@@ -378,7 +377,7 @@ input {
 }
 
 .card_content {
-  padding: 25px 25px;
+  padding: 25px;
 }
 
 .card_text {
@@ -606,12 +605,12 @@ li {
 .focus-wrapper-main {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 1540px;
+  justify-content: center;
+  gap: 23px;
   background-color: #f6f7f9;
   margin-top: 50px;
   padding: 50px;
-  margin-right: 75px;
+  padding-left: 50px;
 }
 
 .focus-item {
@@ -625,6 +624,10 @@ li {
   gap: 15px;
   margin-bottom: 16px;
   transition: linear;
+}
+
+.booz-right-img {
+  width: 100%;
 }
 
 .focus-item:hover {
@@ -657,17 +660,20 @@ li {
   font-weight: 700;
 }
 
+.focus-right-img {
+  width: 450px;
+}
+
 .gpt-wrapper {
-  background-color: #F6F7F9;
+  background-color: #f6f7f9;
   padding: 48px 74px;
   justify-content: center;
   align-items: center;
-  width: 1292px;
 }
 
 .line {
   height: 1px;
-  background-color: #D1D2E0;
+  background-color: #d1d2e0;
   margin-bottom: 32px;
   margin-top: 17px;
 }
@@ -722,7 +728,7 @@ li {
 }
 
 .gpt-item-peoples {
-  color: #9194AC;
+  color: #9194ac;
 }
 
 .gpt-item-btn {
@@ -792,58 +798,157 @@ li {
   border: 1px solid #6d28d2;
 }
 
-.footer {
-  background-color: #1f2937;
-  color: #ffffff;
-  padding: 40px 20px 20px;
-  font-family: "Segoe UI", sans-serif;
+.contents_wrapper {
+  margin-bottom: 50px;
 }
 
-.footer-container {
+.footer__online-world {
+  background-color: #1d1e27;
+  margin-top: 410px;
+  padding: 18px 48px;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-  gap: 20px;
+  gap: 10px;
+  margin-bottom: 1px;
 }
 
-.footer-section {
-  flex: 1;
-  min-width: 200px;
-}
-
-.footer-section h3, .footer-section h4 {
-  color: #facc15;
-  margin-bottom: 10px;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
+.online-world-left-title {
+  color: white;
+  font-size: 18px;
   margin-bottom: 8px;
+  font-weight: bold;
 }
 
-.footer-section ul li a {
-  color: #d1d5db;
-  text-decoration: none;
-  transition: color 0.3s ease;
+.online-world-left-text {
+  color: white;
 }
 
-.footer-section ul li a:hover {
-  color: #ffffff;
+.online-world-left-btn {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  padding: 10px 13px;
 }
 
-.footer-bottom {
-  text-align: center;
-  margin-top: 30px;
-  border-top: 1px solid #374151;
-  padding-top: 15px;
-  font-size: 14px;
-  color: #9ca3af;
+.footer__career-skills {
+  background-color: #1d1e27;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+  padding: 35px 48px;
+}
+
+.footer__career-skill-text {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.footer__career-skill-link {
+  color: #c0c4fc;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer__career-skill-logos {
+  display: flex;
+  align-items: center;
+  justify-content: 0;
+  gap: 24px;
+}
+
+.footer__main-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.footer__main-side {
+  background-color: #1d1e27;
+  padding: 41px 48px;
+  margin-top: 1px;
+}
+
+.footere__main-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-menu-list {
+  width: 23%;
+}
+
+.mini-menu-text {
+  color: white;
+  margin: 6px 0;
+}
+
+.main-menu-title {
+  color: white;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer__info {
+  background-color: #111116;
+  padding: 40px 48px;
+}
+
+.info-mini-menu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-mini-menu-link {
+  color: white;
+  margin: 6px 0;
+}
+
+.footer__info-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.info-mini-menu-title {
+  color: white;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.footer__logo {
+  background-color: #111116;
+  padding: 40px 48px;
+}
+
+.footer-img {
+  display: flex;
+  align-items: center;
+  justify-content: 0;
+  gap: 16px;
+  color: white;
+}
+
+.footer__settings {
+  color: white;
+}
+
+.footer__lang {
+  color: white;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
 }
 
 .reimagine__title {
@@ -995,12 +1100,220 @@ li {
   margin-bottom: 31px;
 }
 
+.profile__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.profile__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.profile__icon-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.header__input {
+  border-radius: 20px;
+  width: 40%;
+}
+
+.header-p {
+  padding: 16px 24px;
+  box-shadow: 4px 4px 4px 4px silver;
+}
+
+.profile__list-link {
+  color: #303141;
+}
+
+.profile__header__link {
+  color: #303141;
+}
+
+.icon-link {
+  color: #303141;
+}
+
+.profile__hero-wrapper {
+  padding: 32px 48px;
+}
+
+.profile__hero-intro {
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #303141;
+}
+
+.profile__hero-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #303141;
+}
+
+.profile__hero-jobs {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 6px 0 14px;
+}
+
+.profile__hero-partners-btn {
+  color: #3b1b94;
+  border: none;
+  background-color: #d2caff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 84px;
+  font-weight: bold;
+}
+
+.profiel__hero-people-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+}
+
+.hero__mini-first-box-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile__hero-about-title {
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.profile__hero_main-info {
+  width: 70%;
+}
+
+.profile_hero-image {
+  box-shadow: 10px 10px 10px 10px silver;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 16px;
+  padding: 83px 196px;
+}
+
+.profile__main-websites {
+  display: flex;
+  align-items: center;
+  justify-content: 0;
+  gap: 16px;
+}
+
+.courses__project-box {
+  border: 2px solid silver;
+  padding: 17px;
+  border-radius: 16px;
+}
+
+.main-site-link {
+  color: #6D28D2;
+  font-size: 22px;
+  border: 2px solid #6D28D2;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.profile__hero-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.none {
+  display: none;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: 0;
+  gap: 20px;
+}
+
+.courses__project-btns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.course-btn {
+  background-color: white;
+  color: #595C73;
+  border: 1px solid #595C73;
+  border-radius: 5px;
+}
+
+.courses__projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.courses__project-title {
+  font-size: 18px;
+  margin: 16px 0 4px;
+}
+
+.courses__project-img {
+  width: 100%;
+}
+
+.del {
+  color: #595C73;
+}
+
+.course-btn {
+  padding: 3px;
+}
+
+.courses__project-info {
+  margin-bottom: 4px;
+}
+
+.courses__project-text {
+  margin-bottom: 14px;
+}
+
+.courses__projects-price {
+  font-size: 16px;
+}
+
+.courses__title {
+  margin: 48px 32px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 1410px) {
   #headerInput {
     width: 460px;
   }
   .course-text {
     text-align: left;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .header__input {
+    width: 350px;
   }
 }
 @media only screen and (max-width: 1360px) {
@@ -1027,6 +1340,58 @@ li {
   }
   .header__btns {
     display: none;
+  }
+  .contents_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .other_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .ai_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .booz-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .focus-wrapper-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .gpt-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .bi-three-dots-vertical {
+    display: block;
+  }
+  .profile__menu {
+    display: flex;
+    align-items: center;
+    justify-content: 0;
+    gap: 14px;
+    display: none;
+  }
+  .bi-list {
+    display: block;
+  }
+  .profile__header {
+    display: flex;
+    align-items: center;
+    justify-content: 0;
+    gap: 10px;
+  }
+  .courses__projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media only screen and (max-width: 1085px) {
@@ -1055,6 +1420,27 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  .footere__main-menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .profile__hero-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .gpt-main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .courses__projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media only screen and (max-width: 911px) {
   .reim__listbox-title {
@@ -1071,6 +1457,29 @@ li {
 @media only screen and (max-width: 905px) {
   #headerInput {
     width: 300px;
+  }
+  .footer__career-skills {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .profile__icon-menu {
+    display: none;
+  }
+  .profile__header__link {
+    display: none;
+  }
+  .bi-search {
+    display: block;
+  }
+  .bi-cart3 {
+    display: block;
+  }
+  .header__input {
+    display: none;
   }
 }
 @media only screen and (max-width: 789px) {
