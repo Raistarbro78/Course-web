@@ -1,67 +1,42 @@
-// header hero mediasi
 
-@media only screen and (max-width: 1410px) {
-  #headerInput {
-    width: 460px;
-  }
-  .course-text {
-    text-align: left;
-  }
+@media (max-width: 576px) {
+  
 }
-@media only screen and (max-width: 1310px) {
-  .header__menu {
-    display: none;
-  }
-  .bi-list {
+@media (max-width: 576px) {
+  
+}
+@media (max-width:560px){
+
+.header-top{
     display: block;
+}
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
   }
-  .br {
+  .world-button{
     display: none;
   }
-  .listbox-text {
-    font-size: 10px;
+  .navbar-center{
+    display: none;
+}
+.explore{
+    display: none;
+}
+.header-link{
+    display: none;
   }
 }
 
-@media only screen and (max-width: 1360px) {
-  .lessons_main_wrapper {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap ;
-    justify-content: center;
-  }
-}
-@media only screen and (max-width: 1085px) {
-  .reim__listbox-title {
-    font-size: 14px;
-  }
-  .reim__listbox-text {
-    font-size: 13px;
-  }
-.lessons__img {
-  width: 100%;
-}
+@media (max-width: 992px) {
+ 
 }
 
-@media only screen and (max-width: 911px) {
-  .reim__listbox-title {
-    font-size: 12px;
-  }
-  .reim__listbox-text {
-    font-size: 10px;
-  }
+@media (max-width: 1200px) {
+ 
 }
 
-@media only screen and (max-width: 905px) {
-  #headerInput {
-    width: 300px;
-  }
+@media (max-width: 1400px) {
+  
 }
-@media only screen and (max-width: 872px) {
-  .companies__logos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-// header hero mediasi

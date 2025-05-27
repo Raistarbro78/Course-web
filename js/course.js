@@ -2210,3 +2210,56 @@ const courses = [
     ],
   },
 ];
+
+const reacts = [
+  {
+ id: 1,
+    title: "JavaScript Algorithms and Data Structures Masterclass",
+    author: "Colt Steele",
+    rating: 4.4,
+    price: 47.13,
+    discountPrice: 10.2,
+    img: "/assets/newassets/1362070_b9a1_2.jpg (1).png"
+  } ,
+{
+ id: 2,
+    title: "JavaScript Algorithms and Data Structures Masterclass",
+    author: "Colt Steele",
+    rating: 4.4,
+    price: 47.13,
+    discountPrice: 10.2,
+    img: "/assets/newassets/1362070_b9a1_2.jpg (1).png"
+  } ,{
+ id: 3,
+    title: "JavaScript Algorithms and Data Structures Masterclass",
+    author: "Colt Steele",
+    rating: 4.4,
+    price: 47.13,
+    discountPrice: 10.2,
+    img: "/assets/newassets/1362070_b9a1_2.jpg (1).png"
+  } ,{
+ id: 4,
+    title: "JavaScript Algorithms and Data Structures Masterclass",
+    author: "Colt Steele",
+    rating: 4.4,
+    price: 47.13,
+    discountPrice: 10.2,
+    img: "/assets/newassets/1362070_b9a1_2.jpg (1).png"
+  } ,{
+ id: 5,
+    title: "JavaScript Algorithms and Data Structures Masterclass",
+    author: "Colt Steele",
+    rating: 4.4,
+    price: 47.13,
+    discountPrice: 10.2,
+    img: "/assets/newassets/1362070_b9a1_2.jpg (1).png"
+  } ,{
+ id: 6,
+    title: "JavaScript Algorithms and Data Structures Masterclass",
+    author: "Colt Steele",
+    rating: 4.4,
+    price: 47.13,
+    discountPrice: 10.2,
+    img: "/assets/newassets/1362070_b9a1_2.jpg (1).png"
+  } ,
+]
