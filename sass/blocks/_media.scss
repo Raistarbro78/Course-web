@@ -8,6 +8,23 @@
     text-align: left;
   }
 }
+
+@media only screen and (max-width: 1400px) {
+  .header__input {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  .lessons_main_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .lessons__main_box {
+    width: 50%;
+  }
+}
+
 @media only screen and (max-width: 1310px) {
   .header__menu {
     display: none;
@@ -21,16 +38,59 @@
   .listbox-text {
     font-size: 10px;
   }
-}
 
-@media only screen and (max-width: 1360px) {
-  .lessons_main_wrapper {
+  .header__btns {
+    display: none;
+  }
+  .contents_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .other_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .ai_wrapper {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap ;
-    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .booz-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .focus-wrapper-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .gpt-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .bi-three-dots-vertical {
+    display: block;
+  }
+  .profile__menu {
+    @include d-flex(0, 14px);
+    display: none;
+  }
+  .bi-list {
+    display: block;
+  }
+  .profile__header {
+    @include d-flex(0, 10px);
+  }
+  .courses__projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media only screen and (max-width: 1085px) {
   .reim__listbox-title {
     font-size: 14px;
@@ -38,11 +98,48 @@
   .reim__listbox-text {
     font-size: 13px;
   }
-.lessons__img {
-  width: 100%;
-}
+  .lessons__img {
+    width: 100%;
+  }
+  .reimagine__menu-boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .lessons_main_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .reimagine__list-box {
+    width: 50%;
+  }
+  .companies__logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .footere__main-menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
 
+@media only screen and (max-width: 990px) {
+  .profile__hero-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .gpt-main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .courses__projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media only screen and (max-width: 911px) {
   .reim__listbox-title {
     font-size: 12px;
@@ -50,18 +147,48 @@
   .reim__listbox-text {
     font-size: 10px;
   }
+  .lessons_main_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media only screen and (max-width: 905px) {
   #headerInput {
     width: 300px;
   }
+  .footer__career-skills {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
 }
-@media only screen and (max-width: 872px) {
-  .companies__logos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+@media only screen and (max-width: 800px) {
+  .profile__icon-menu {
+    display: none;
+  }
+  .profile__header__link {
+    display: none;
+  }
+  .bi-search {
+    display: block;
+  }
+  .bi-cart3 {
+    display: block;
+  }
+  .header__input {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 789px) {
+  .hero__skills-box {
+    width: 70%;
   }
 }
 
 // header hero mediasi
+
+// second header mediasi

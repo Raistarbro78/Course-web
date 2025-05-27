@@ -26,22 +26,19 @@ input {
 }
 
 .achievement_wrapper {
-  width: 1440px;
   height: 441.25px;
   top: 4375.64px;
   left: -7.5px;
   overflow: hidden;
   overflow: scroll;
   background: rgba(246, 247, 249, 1);
-} 
+}
 
 .achievement_wrapper::-webkit-scrollbar {
-  display: none;              
+  display: none;
 }
 
 
-.overflow_wrapper {
-}
 .card_wrapper {
   background-color: #fff;
   margin-top: 32px;
@@ -49,16 +46,16 @@ input {
   border-radius: 8px;
   border-width: 1px;
 }
- 
-.card_wrapper:hover{
-  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15),
-  0 10px 10px rgba(0, 0, 0, 0.1);
-cursor: pointer;
-transition: 0.7s ease-in-out;
+
+.card_wrapper:hover {
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.7s ease-in-out;
 }
 
 .card_content {
-  padding: 25px 25px;
+  padding: 25px;
+
 }
 .card_text {
   margin-top: 16px;
@@ -92,13 +89,11 @@ transition: 0.7s ease-in-out;
   position: relative;
   top: 50px;
   left: 75px;
-
 }
 
-.price_link{
+.price_link {
   color: rgba(109, 40, 210, 1);
   margin-top: 10px;
-
 }
 
 .overflow_heading {
@@ -109,7 +104,7 @@ transition: 0.7s ease-in-out;
   vertical-align: middle;
 }
 
-.btn{
+.btn {
   background: linear-gradient(135deg, #4f46e5, #3b82f6);
   color: white;
   border: none;
@@ -142,7 +137,7 @@ transition: 0.7s ease-in-out;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-#signupForm{
+#signupForm {
   background-color: rgba(255, 255, 255, 0.15);
   padding: 40px;
   border-radius: 20px;
@@ -152,7 +147,7 @@ transition: 0.7s ease-in-out;
   width: 350px;
 }
 
-#name{
+#name {
   width: 100%;
   padding: 12px;
   background: none;
@@ -164,7 +159,7 @@ transition: 0.7s ease-in-out;
   transition: 0.3s ease;
 }
 
-#email{
+#email {
   width: 100%;
   padding: 12px;
   background: none;
@@ -176,7 +171,7 @@ transition: 0.7s ease-in-out;
   transition: 0.3s ease;
 }
 
-#password{
+#password {
   width: 100%;
   padding: 12px;
   background: none;
@@ -188,7 +183,7 @@ transition: 0.7s ease-in-out;
   transition: 0.3s ease;
 }
 
-#confirmPassword{
+#confirmPassword {
   width: 100%;
   padding: 12px;
   background: none;
@@ -200,7 +195,7 @@ transition: 0.7s ease-in-out;
   transition: 0.3s ease;
 }
 
-.other_wrapper{
+.other_wrapper {
   display: grid;
   column-gap: 40px ;
   grid-template-columns: repeat(4,1fr);

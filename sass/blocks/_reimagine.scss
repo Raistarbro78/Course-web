@@ -14,6 +14,9 @@
   @include d-flex(center, 20px);
   margin-top: 24px;
 }
+.lessons__main_box {
+  width: 100%;
+}
 .reim__listbox-title {
   margin: 16px 0 8px 0;
 }
@@ -24,7 +27,7 @@
   @include d-flex(0, 10px);
 }
 .reimange__img {
-  max-width: 100%;
+  width: 100%;
 }
 .listbox-text {
   color: #d1d2e0;

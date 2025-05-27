@@ -1,6 +1,6 @@
-let signup = document.querySelector(".header__signup");
+// let signup = document.querySelector(".header__signup");
 
-signup.addEventListener("click", (e) => {
-    window.location.href = "./signUp.html"
-})
+// signup.addEventListener("click", (e) => {
+//     window.location.href = "./signUp.html"
+// })
 

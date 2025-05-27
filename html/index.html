@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>undemy</title>
@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
+    <link rel="shortcut icon" href="/assets/u.png" type="image/x-icon" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
@@ -59,84 +60,127 @@
             </div>
         </div>
       </div>
+
+      <div class="header__main">
+        <a href="./index.html" class="header__link-pic">
+          <img src="../assets/course logo.svg" alt="alt" class="header__pic" />
+        </a>
+        <a href="#" class="header__explore"> Explore </a>
+        <input
+          type="text"
+          name="input"
+          id="headerInput"
+          placeholder="Find expert-led courses to boost your career"
+        />
+        <ul class="header__menu">
+          <li class="header__list">
+            <a href="#" class="header__link">Plans & Pricing</a>
+          </li>
+          <li class="header__list">
+            <a href="#" class="header__link">Udemy Business</a>
+          </li>
+          <li class="header__list">
+            <a href="#" class="header__link">Teach on Udemy</a>
+          </li>
+        </ul>
+        <i class="bi bi-list"></i>
+        <div class="header__btns">
+          <button class="header__login1">Log in</button>
+          <button class="header__signup1">Sign up</button>
+        </div>
+      </div>
+      <div class="container">
+        <ul class="header__menu2 none-menu">
+          <li class="header__list">
+            <a href="#" class="header__link">Plans & Pricing</a>
+          </li>
+          <li class="header__list">
+            <a href="#" class="header__link">Udemy Business</a>
+          </li>
+          <li class="header__list">
+            <a href="#" class="header__link">Teach on Udemy</a>
+          </li>
+
+          <button class="header__login1">Log in</button>
+          <button class="header__signup1">Sign up</button>
+        </ul>
+      </div>
     </header>
     <main>
-
-        <section class="hero">
-            <div class="container">
-                <div class="hero__wrapper">
-                    <div class="hero__skills-box">
-                        <h1 class="hero__title">
-                            Skills that transform <br />
-                            your career
-                        </h1>
-                        <p class="hero__text">
-                            Our biggest sale of the season is here. Stock up on courses for
-                            as low as $9.99 each. Sale ends May 22.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="reimagine">
-            <div class="container">
-              <h2 class="reimagine__title">Ready to reimagine your career?</h2>
-              <p class="reimagine__text">
-                Get the skills and real-world experience employers want with Career
-                Accelerators.
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__skills-box">
+              <h1 class="hero__title">
+                Skills that transform <br />
+                your career
+              </h1>
+              <p class="hero__text">
+                Our biggest sale of the season is here. Stock up on courses for
+                as low as $9.99 each. Sale ends May 22.
               </p>
-              <ul class="reimagine__menu-boxes">
-                <li class="reimagine__list-box">
-                  <img src="/assets/coding men.png" alt="" class="reimange__img" />
-                  <div class="reim__listbox-bottom">
-                    <h3 class="reim__listbox-title">Full Stack Web Developer</h3>
-                    <p class="reim__listbox-text">
-                      $127,005 average salary (US)•16,500 open roles (US)
-                    </p>
-                    <div class="reim__listbox-texts">
-                      <p class="listbox-text">4.7</p>
-                      <p class="listbox-text">442K ratings</p>
-                      <p class="listbox-text">87.6 total hours</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="reimagine__list-box">
-                  <img src="/assets/coding lasy.png" alt="" class="reimange__img" />
-                  <div class="reim__listbox-bottom">
-                    <h3 class="reim__listbox-title">Digital Marketer</h3>
-                    <p class="reim__listbox-text">
-                      $61,126 average salary (US)•36,600 open roles (US)
-                    </p>
-                    <div class="reim__listbox-texts">
-                      <p class="listbox-text">4.6</p>
-                      <p class="listbox-text">3.3K ratings</p>
-                      <p class="listbox-text">28.4 total hours</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="reimagine__list-box">
-                  <img src="/assets/coding boy.png" alt="" class="reimange__img" />
-                  <div class="reim__listbox-bottom">
-                    <h3 class="reim__listbox-title">Data Scientist</h3>
-                    <p class="reim__listbox-text">
-                      $126,629 average salary (US)•20,800 open roles (US)
-                    </p>
-                    <div class="reim__listbox-texts">
-                      <p class="listbox-text">4.6</p>
-                      <p class="listbox-text">216K ratings</p>
-                      <p class="listbox-text">46.8 total hours</p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-              <button class="reimagine__all-accelators-btn">
-                All Career Accelerators
-              </button>
             </div>
-          </section>
+          </div>
+        </div>
+      </section>
 
-           
+      <section class="reimagine">
+        <div class="container">
+          <h2 class="reimagine__title">Ready to reimagine your career?</h2>
+          <p class="reimagine__text">
+            Get the skills and real-world experience employers want with Career
+            Accelerators.
+          </p>
+          <ul class="reimagine__menu-boxes">
+            <li class="reimagine__list-box">
+              <img src="/assets/coding men.png" alt="" class="reimange__img" />
+              <div class="reim__listbox-bottom">
+                <h3 class="reim__listbox-title">Full Stack Web Developer</h3>
+                <p class="reim__listbox-text">
+                  $127,005 average salary (US)•16,500 open roles (US)
+                </p>
+                <div class="reim__listbox-texts">
+                  <p class="listbox-text">4.7</p>
+                  <p class="listbox-text">442K ratings</p>
+                  <p class="listbox-text">87.6 total hours</p>
+                </div>
+              </div>
+            </li>
+            <li class="reimagine__list-box">
+              <img src="/assets/coding lasy.png" alt="" class="reimange__img" />
+              <div class="reim__listbox-bottom">
+                <h3 class="reim__listbox-title">Digital Marketer</h3>
+                <p class="reim__listbox-text">
+                  $61,126 average salary (US)•36,600 open roles (US)
+                </p>
+                <div class="reim__listbox-texts">
+                  <p class="listbox-text">4.6</p>
+                  <p class="listbox-text">3.3K ratings</p>
+                  <p class="listbox-text">28.4 total hours</p>
+                </div>
+              </div>
+            </li>
+            <li class="reimagine__list-box">
+              <img src="/assets/coding boy.png" alt="" class="reimange__img" />
+              <div class="reim__listbox-bottom">
+                <h3 class="reim__listbox-title">Data Scientist</h3>
+                <p class="reim__listbox-text">
+                  $126,629 average salary (US)•20,800 open roles (US)
+                </p>
+                <div class="reim__listbox-texts">
+                  <p class="listbox-text">4.6</p>
+                  <p class="listbox-text">216K ratings</p>
+                  <p class="listbox-text">46.8 total hours</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <button class="reimagine__all-accelators-btn">
+            All Career Accelerators
+          </button>
+        </div>
+      </section>
+
       <section class="lessons">
         <div class="container">
           <h2 class="lessons__title">All the skills you need in one place</h2>
@@ -170,7 +214,6 @@
                 <del class="price__old">$74.99</del>
               </div>
               <button class="lessons__btn">Bestseller</button>
-
             </li>
             <li class="lessons__main_box">
               <img src="/assets/c-- man.png" alt="" class="lessons__img" />
@@ -193,7 +236,6 @@
                 <del class="price__old">$74.99</del>
               </div>
               <button class="lessons__btn">Bestseller</button>
-
             </li>
             <li class="lessons__main_box">
               <img src="/assets/js.png" alt="" class="lessons__img" />
@@ -215,8 +257,7 @@
                 <div class="price__now">$9.99</div>
                 <del class="price__old">$59.99</del>
               </div>
-                <button class="lessons__btn">Bestseller</button>
-
+              <button class="lessons__btn">Bestseller</button>
             </li>
             <li class="lessons__main_box">
               <img src="/assets/python.png" alt="" class="lessons__img" />
@@ -268,415 +309,719 @@
           </ul>
         </div>
 
-            <section class="companies">
-                <div class="container">
-                  <h3 class="companies__title">
-                    Trusted by over 16,000 companies and millions of learners around the
-                    world
-                  </h3>
-                  <div class="companies__logos">
-                    <a href="#" class="comapanies__link">
-                      <img src="/assets/BYD.png" alt="" class="comapanies__img" />
-                    </a>
-                    <a href="#" class="comapanies__link">
-                      <img src="/assets/samsung.png" alt="" class="comapanies__img" />
-                    </a>
-                    <a href="#" class="comapanies__link">
-                      <img src="/assets/cisci.png" alt="" class="comapanies__img" />
-                    </a>
-                    <a href="#" class="comapanies__link">
-                      <img src="/assets/vimeo.png" alt="" class="comapanies__img" />
-                    </a>
-                    <a href="#" class="comapanies__link">
-                      <img src="/assets/P&G.png" alt="" class="comapanies__img" />
-                    </a>
-                    <a href="#" class="comapanies__link">
-                      <img src="/assets/hewlet.png" alt="" class="comapanies__img" />
-                    </a>
-                    <a href="#" class="comapanies__link">
-                      <img src="/assets/citi.png" alt="" class="comapanies__img" />
-                    </a>
-                    <a href="#" class="comapanies__link">
-                      <img src="/assets/erikson.png " alt="" class="comapanies__img" />
-                    </a>
+        <section class="companies">
+          <div class="container">
+            <h3 class="companies__title">
+              Trusted by over 16,000 companies and millions of learners around
+              the world
+            </h3>
+            <div class="companies__logos">
+              <a href="#" class="comapanies__link">
+                <img src="/assets/BYD.png" alt="" class="comapanies__img" />
+              </a>
+              <a href="#" class="comapanies__link">
+                <img src="/assets/samsung.png" alt="" class="comapanies__img" />
+              </a>
+              <a href="#" class="comapanies__link">
+                <img src="/assets/cisci.png" alt="" class="comapanies__img" />
+              </a>
+              <a href="#" class="comapanies__link">
+                <img src="/assets/vimeo.png" alt="" class="comapanies__img" />
+              </a>
+              <a href="#" class="comapanies__link">
+                <img src="/assets/P&G.png" alt="" class="comapanies__img" />
+              </a>
+              <a href="#" class="comapanies__link">
+                <img src="/assets/hewlet.png" alt="" class="comapanies__img" />
+              </a>
+              <a href="#" class="comapanies__link">
+                <img src="/assets/citi.png" alt="" class="comapanies__img" />
+              </a>
+              <a href="#" class="comapanies__link">
+                <img
+                  src="/assets/erikson.png "
+                  alt=""
+                  class="comapanies__img"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section>
+        <div class="container">
+          <div class="focus-wrapper-main">
+            <div class="focus-left">
+              <h1 class="focus-title">Learning focused on your goals</h1>
+              <div class="focus-wrapper">
+                <div class="focus-item">
+                  <img
+                    src="/assets/Image [features-tab_icon__2eVep].svg"
+                    alt=""
+                    class="focus-item-icon"
+                  />
+                  <div class="focus-item-texts">
+                    <p class="focus-item-top-text">Hands-on training</p>
+                    <p class="focus-item-bottom-text">
+                      Upskill effectively with AI-powered coding exercises,
+                      practice tests, and quizzes.
+                    </p>
                   </div>
                 </div>
-                </section>
 
-        </section>
-        <section>
-            <div class="container">
-                <div class="focus-wrapper-main">
-                    <div class="focus-left">
-                        <h1 class="focus-title">Learning focused on your goals</h1>
-                        <div class="focus-wrapper">
-                            <div class="focus-item"><img src="/assets/Image [features-tab_icon__2eVep].svg" alt="" class="focus-item-icon">
-                                <div class="focus-item-texts">
-                                    <p class="focus-item-top-text">Hands-on training</p>
-                                    <p class="focus-item-bottom-text">Upskill effectively with AI-powered coding exercises, 
-                                      practice tests, and quizzes.</p>
-                                </div>
-                            </div>
-                            
-                            
-                            <div class="focus-item"><img src="/assets/Image [features-tab_icon__2eVep] (3).svg" alt="" class="focus-item-icon">
-                                <div class="focus-item-texts">
-                                    <p class="focus-item-top-text">Certification prep</p>
-                                    <p class="focus-item-bottom-text">Prep for industry-recognized certifications by solving real-world challenges and earn badges along the way.</p>
-                                    <p class="focus-item-bottom-link">Explore courses</p>
-                                </div>
-                            </div>
-                            
-                            
-                            <div class="focus-item"><img src="/assets/Image [features-tab_icon__2eVep] (1).svg" alt="" class="focus-item-icon">
-                                <div class="focus-item-texts">
-                                    <p class="focus-item-top-text">Insights and analytics</p>
-                                    <p class="focus-item-bottom-text">Fast-track goals with advanced insights plus a dedicated 
-                                      customer success team to help drive effective learning.</p>
-                                    <p class="focus-item-bottom-link">Find out more</p>
-                                </div>
-                            </div>
-                            
-                            
-                            <div class="focus-item"><img src="/assets/Image [features-tab_icon__2eVep] (2).svg" alt="" class="focus-item-icon">
-                                <div class="focus-item-texts">
-                                    <p class="focus-item-top-text">Customizable content</p>
-                                    <p class="focus-item-bottom-text">Create tailored learning paths for team and organization 
-                                      goals and even host your own content and resources..</p>
-                                    <p class="focus-item-bottom-link">Find out more</p>
-                                </div>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="focus-right">
-                        <img src="/assets/Image.svg" alt="" class="focus-right-img">
-                    </div>
+                <div class="focus-item">
+                  <img
+                    src="/assets/Image [features-tab_icon__2eVep] (3).svg"
+                    alt=""
+                    class="focus-item-icon"
+                  />
+                  <div class="focus-item-texts">
+                    <p class="focus-item-top-text">Certification prep</p>
+                    <p class="focus-item-bottom-text">
+                      Prep for industry-recognized certifications by solving
+                      real-world challenges and earn badges along the way.
+                    </p>
+                    <p class="focus-item-bottom-link">Explore courses</p>
+                  </div>
                 </div>
+
+                <div class="focus-item">
+                  <img
+                    src="/assets/Image [features-tab_icon__2eVep] (1).svg"
+                    alt=""
+                    class="focus-item-icon"
+                  />
+                  <div class="focus-item-texts">
+                    <p class="focus-item-top-text">Insights and analytics</p>
+                    <p class="focus-item-bottom-text">
+                      Fast-track goals with advanced insights plus a dedicated
+                      customer success team to help drive effective learning.
+                    </p>
+                    <p class="focus-item-bottom-link">Find out more</p>
+                  </div>
+                </div>
+
+                <div class="focus-item">
+                  <img
+                    src="/assets/Image [features-tab_icon__2eVep] (2).svg"
+                    alt=""
+                    class="focus-item-icon"
+                  />
+                  <div class="focus-item-texts">
+                    <p class="focus-item-top-text">Customizable content</p>
+                    <p class="focus-item-bottom-text">
+                      Create tailored learning paths for team and organization
+                      goals and even host your own content and resources..
+                    </p>
+                    <p class="focus-item-bottom-link">Find out more</p>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-        
-        <section class="section_growth"> 
-            <div class="heading_wrapper">
-                <h1 class="heading_text">
-                    Accelerate growth — for you or your organization
-                </h1>
-                <h4 class="heading_descrpt">Reach goals faster with one of our plans or programs. Try one free today or contact sales to learn more.</h4>
-           
-            <div class="contents_wrapper">
-                <div class="plan-card">
-                    <div class="plan_wrapper">
-                        <div class="plan-header">
-                            <strong>Personal Plan</strong>
-                            <span>For you</span>
-                        </div>
-                        <p class="plan_text">Individual</p>
-                    </div>
-                    
-                    <div class="plan-price">
-                        <p><strong>Starting at $20.00 per month</strong></p>
-                        <small>Billed monthly or annually. Cancel anytime.</small>
-                    </div>
-                    <button class="plan-button">Try it free</button>
-                    <ul class="plan-features">
-                        <li>Access to 13,000+ top courses</li>
-                        <li>Goal-focused recommendations</li>
-                        <li>Certification prep</li>
-                        <li>AI-powered coding exercises</li>
-                    </ul>
-                </div>
-                <div class="plan-card">
-                    <div class="plan_wrapper">
-                        <div class="plan-header">
-                            <strong>Team Plan</strong>
-                            <span>For your team</span>
-                        </div>
-                        <p class="plan_text">2 to 20 people</p>
-                    </div>
-                    
-                    <div class="plan-price">
-                        <p><strong>$30.00 a month per user</strong></p>
-                        <small>Billed monthly or annually. Cancel anytime.</small>
-                    </div>
-                    <button class="plan-button">Try it free</button>
-                    <ul class="plan-features">
-                        <li>Access to 13,000+ top courses</li>
-                        <li>Goal-focused recommendations</li>
-                        <li>Certification prep</li>
-                        <li>AI-powered coding exercises</li>
-                        <li>Analytics and adoption reports</li>
-                    </ul>
-                </div>
-                <div class="plan-card">
-                    <div class="plan_wrapper">
-                        <div class="plan-header">
-                            <strong>Enterprise</strong>
-                            <span>organization </span>
-                        </div>
-                        <p class="plan_text">More than 20 people</p>
-                    </div>
-                    
-                    <div class="plan-price">
-                        <p><strong>Contact sales for pricing</strong></p>
-                        <small>Billed monthly or annually. Cancel anytime.</small>
-                    </div>
-                    <button class="plan-button">Request a demo</button>
-                    <ul class="plan-features">
-                        <li>Access to 30,000+ top courses</li>
-                        <li>Certification prep</li>
-                        <li>Goal-focused recommendations</li>
-                        <li>AI-powered coding exercises</li>
-                        <li>Advanced analytics and insights</li>
-                        <li>Dedicated customer success team</li>
-                        <li>International course collection </li>
-                        <li>featuring 15 languages</li>
-                        <li>Customizable content</li>
-                        <li>Hands-on tech training with add-on</li>
-                        <li>Strategic implementation services </li>
-                        <li>with add-on</li>
-                    </ul>
-                </div>
-                <div class="plan-card">
-                    <div class="plan_wrapper">
-                        <div class="plan-header">
-                            <strong>Leadership Academy</strong>
-                            <span>Cohort programs to develop your leaders</span>
-                        </div>
-                        <p class="plan_text">Groups of 25 or more</p>
-                    </div>
-                    
-                    <div class="plan-price">
-                        <p><strong>Contact sales for pricing</strong></p>
-                        <small>Billed monthly or annually. Cancel anytime.</small>
-                    </div>
-                    <button class="plan-button-trns">Contact sales</button>
-                    <ul class="plan-features">
-                        <li>Expert-led leadership training</li>
-                        <li>Research-based content curation</li>
-                        <li>Applied learning, tool kits, and group </li>
-                        <li>coaching</li>
-                        <li>Asynchronous learning with </li>
-                        <li>collaborative discussions</li>
-                        <li>Live virtual events</li>
-                        <li>AI-powered analytics and insights</li>
-                        <li>Strategic implementation services </li>
-                        <li>with add-on</li>
-                    </ul>
-                </div>
-                </div>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="focus-right">
+              <img src="/assets/Image.svg" alt="" class="focus-right-img" />
             </div>
-            
-        </section>
-
-        <section class="section_overflow">
-            <div class="container">
-                <div class="achievement_wrapper">
-                    <div class="inner_wrapper">
-                <h1 class="overflow_heading">See what others are achieving through learning</h1>
-                <div class="other_wrapper">
-            <div class="overflow_wrapper">
-                <div class="card_wrapper">
-                    <div class="card_content">
-                    <img src="/assets/Image (1).svg" alt="">
-                    <p class="card_text">Udemy was rated the 
-                      <span class="darker">  most popular
-                        online course or certification program </span>
-                         for learning how to code according to 
-                       <span class="purple"> StackOverflow’s 2023 Developer survey.</span></p>
-
-                       <div class="card_info">
-                       <img src="/assets/Image (2).svg" alt="" class="card_img">
-                        <p class="info_price">37,076 responses collected</p>
-                       </div>
-
-                       <h4 class="price_link">View Web Development courses</h4>
-                </div>
-                </div>
-            </div>
-            <div class="overflow_wrapper">
-                <div class="card_wrapper">
-                    <div class="card_content">
-                    <img src="/assets/Image (1).svg" alt="">
-                    <p class="card_text">Udemy was truly 
-                      <span class="darker"> 
-                        a game-changer and a great guide</span>
-                        for me as we brought 
-                        Dimensional to life.</p>
-
-                       <div class="card_info-texts">
-                       <img src="/assets/Image [ud-avatar].svg" alt="" class="card_img">
-                       <div class="texts_wrapper_links">
-                        <p class="info_price">Alvin Lim</p>
-                        <p class="info_price">Technical Co-Founder, CTO at </p>
-                        <p class="info_price">Dimensional</p>
-                    </div>
-                       </div>
-
-                       <h4 class="price_link">View this iOS & Swift course</h4>
-                </div>
-                </div>
-            </div>
-            <div class="overflow_wrapper">
-                <div class="card_wrapper">
-                    <div class="card_content">
-                    <img src="/assets/Image (1).svg" alt="">
-                    <p class="card_text">Udemy gives you the ability to be 
-                        persistent. I learned exactly what I 
-                        needed to know in the real world. It 
-                        helped me sell myself to   <span class="darker">  get a new role.</span></p>
-
-                       <div class="card_info-texts">
-                       <img src="/assets/Image [ud-avatar] (1).svg" alt="" class="card_img">
-                       <div class="texts_wrapper_links">
-                        <p class="info_price">William A. Wachlin</p>
-                        <p class="info_price">Partner Account Manager at Amazon</p>
-                        <p class="info_price">Web Services</p>
-                    </div>
-                       </div>
-
-                       <h4 class="price_link">View this AWS course</h4>
-                </div>
-                </div>
-            </div>
-            <div class="overflow_wrapper">
-                <div class="card_wrapper">
-                    <div class="card_content">
-                    <img src="/assets/Image (1).svg" alt="">
-                    <p class="card_text">With Udemy Business employees were  
-                        able to marry the two together, 
-                        technology and consultant soft skills... to 
-                        help <span class="darker">  drive their careers forward.</span></p>
-
-                       <div class="card_info-texts">
-                       <img src="/assets/Image [ud-avatar] (2).svg" alt="" class="card_img">
-                       <div class="texts_wrapper_links">
-                        <p class="info_price">Ian Stevens</p>
-                        <p class="info_price">Head of Capability Development, </p>
-                        <p class="info_price">North America at Publicis Sapient</p>
-                    </div>
-                       </div>
-
-                       <h4 class="price_link">Read full story</h4>
-                </div>
-                </div>
-            </div>
+          </div>
         </div>
-        </div>
-    </div>
-    </div>
       </section>
-    
+
+      <section class="section_growth">
+        <div class="heading_wrapper">
+          <h1 class="heading_text">
+            Accelerate growth — for you or your organization
+          </h1>
+          <h4 class="heading_descrpt">
+            Reach goals faster with one of our plans or programs. Try one free
+            today or contact sales to learn more.
+          </h4>
+
+          <div class="contents_wrapper">
+            <div class="plan-card">
+              <div class="plan_wrapper">
+                <div class="plan-header">
+                  <strong>Personal Plan</strong>
+                  <span>For you</span>
+                </div>
+                <p class="plan_text">Individual</p>
+              </div>
+
+              <div class="plan-price">
+                <p><strong>Starting at $20.00 per month</strong></p>
+                <small>Billed monthly or annually. Cancel anytime.</small>
+              </div>
+              <button class="plan-button">Try it free</button>
+              <ul class="plan-features">
+                <li>Access to 13,000+ top courses</li>
+                <li>Goal-focused recommendations</li>
+                <li>Certification prep</li>
+                <li>AI-powered coding exercises</li>
+              </ul>
+            </div>
+            <div class="plan-card">
+              <div class="plan_wrapper">
+                <div class="plan-header">
+                  <strong>Team Plan</strong>
+                  <span>For your team</span>
+                </div>
+                <p class="plan_text">2 to 20 people</p>
+              </div>
+
+              <div class="plan-price">
+                <p><strong>$30.00 a month per user</strong></p>
+                <small>Billed monthly or annually. Cancel anytime.</small>
+              </div>
+              <button class="plan-button">Try it free</button>
+              <ul class="plan-features">
+                <li>Access to 13,000+ top courses</li>
+                <li>Goal-focused recommendations</li>
+                <li>Certification prep</li>
+                <li>AI-powered coding exercises</li>
+                <li>Analytics and adoption reports</li>
+              </ul>
+            </div>
+            <div class="plan-card">
+              <div class="plan_wrapper">
+                <div class="plan-header">
+                  <strong>Enterprise</strong>
+                  <span>organization </span>
+                </div>
+                <p class="plan_text">More than 20 people</p>
+              </div>
+
+              <div class="plan-price">
+                <p><strong>Contact sales for pricing</strong></p>
+                <small>Billed monthly or annually. Cancel anytime.</small>
+              </div>
+              <button class="plan-button">Request a demo</button>
+              <ul class="plan-features">
+                <li>Access to 30,000+ top courses</li>
+                <li>Certification prep</li>
+                <li>Goal-focused recommendations</li>
+                <li>AI-powered coding exercises</li>
+                <li>Advanced analytics and insights</li>
+                <li>Dedicated customer success team</li>
+                <li>International course collection</li>
+                <li>featuring 15 languages</li>
+                <li>Customizable content</li>
+                <li>Hands-on tech training with add-on</li>
+                <li>Strategic implementation services</li>
+                <li>with add-on</li>
+              </ul>
+            </div>
+            <div class="plan-card">
+              <div class="plan_wrapper">
+                <div class="plan-header">
+                  <strong>Leadership Academy</strong>
+                  <span>Cohort programs to develop your leaders</span>
+                </div>
+                <p class="plan_text">Groups of 25 or more</p>
+              </div>
+
+              <div class="plan-price">
+                <p><strong>Contact sales for pricing</strong></p>
+                <small>Billed monthly or annually. Cancel anytime.</small>
+              </div>
+              <button class="plan-button-trns">Contact sales</button>
+              <ul class="plan-features">
+                <li>Expert-led leadership training</li>
+                <li>Research-based content curation</li>
+                <li>Applied learning, tool kits, and group</li>
+                <li>coaching</li>
+                <li>Asynchronous learning with</li>
+                <li>collaborative discussions</li>
+                <li>Live virtual events</li>
+                <li>AI-powered analytics and insights</li>
+                <li>Strategic implementation services</li>
+                <li>with add-on</li>
+              </ul>
+            </div>
+          </div>
+          <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+        </div>
+      </section>
+
+      <section class="section_overflow">
+        <div class="container">
+          <div class="achievement_wrapper">
+            <div class="inner_wrapper">
+              <h1 class="overflow_heading">
+                See what others are achieving through learning
+              </h1>
+              <div class="other_wrapper">
+                <div class="overflow_wrapper">
+                  <div class="card_wrapper">
+                    <div class="card_content">
+                      <img src="/assets/Image (1).svg" alt="" />
+                      <p class="card_text">
+                        Udemy was rated the
+                        <span class="darker">
+                          most popular online course or certification program
+                        </span>
+                        for learning how to code according to
+                        <span class="purple">
+                          StackOverflow’s 2023 Developer survey.</span
+                        >
+                      </p>
+
+                      <div class="card_info">
+                        <img
+                          src="/assets/Image (2).svg"
+                          alt=""
+                          class="card_img"
+                        />
+                        <p class="info_price">37,076 responses collected</p>
+                      </div>
+
+                      <h4 class="price_link">View Web Development courses</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="overflow_wrapper">
+                  <div class="card_wrapper">
+                    <div class="card_content">
+                      <img src="/assets/Image (1).svg" alt="" />
+                      <p class="card_text">
+                        Udemy was truly
+                        <span class="darker">
+                          a game-changer and a great guide</span
+                        >
+                        for me as we brought Dimensional to life.
+                      </p>
+
+                      <div class="card_info-texts">
+                        <img
+                          src="/assets/Image [ud-avatar].svg"
+                          alt=""
+                          class="card_img"
+                        />
+                        <div class="texts_wrapper_links">
+                          <p class="info_price">Alvin Lim</p>
+                          <p class="info_price">Technical Co-Founder, CTO at</p>
+                          <p class="info_price">Dimensional</p>
+                        </div>
+                      </div>
+
+                      <h4 class="price_link">View this iOS & Swift course</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="overflow_wrapper">
+                  <div class="card_wrapper">
+                    <div class="card_content">
+                      <img src="/assets/Image (1).svg" alt="" />
+                      <p class="card_text">
+                        Udemy gives you the ability to be persistent. I learned
+                        exactly what I needed to know in the real world. It
+                        helped me sell myself to
+                        <span class="darker"> get a new role.</span>
+                      </p>
+
+                      <div class="card_info-texts">
+                        <img
+                          src="/assets/Image [ud-avatar] (1).svg"
+                          alt=""
+                          class="card_img"
+                        />
+                        <div class="texts_wrapper_links">
+                          <p class="info_price">William A. Wachlin</p>
+                          <p class="info_price">
+                            Partner Account Manager at Amazon
+                          </p>
+                          <p class="info_price">Web Services</p>
+                        </div>
+                      </div>
+
+                      <h4 class="price_link">View this AWS course</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="overflow_wrapper">
+                  <div class="card_wrapper">
+                    <div class="card_content">
+                      <img src="/assets/Image (1).svg" alt="" />
+                      <p class="card_text">
+                        With Udemy Business employees were able to marry the two
+                        together, technology and consultant soft skills... to
+                        help
+                        <span class="darker">
+                          drive their careers forward.</span
+                        >
+                      </p>
+
+                      <div class="card_info-texts">
+                        <img
+                          src="/assets/Image [ud-avatar] (2).svg"
+                          alt=""
+                          class="card_img"
+                        />
+                        <div class="texts_wrapper_links">
+                          <p class="info_price">Ian Stevens</p>
+                          <p class="info_price">
+                            Head of Capability Development,
+                          </p>
+                          <p class="info_price">
+                            North America at Publicis Sapient
+                          </p>
+                        </div>
+                      </div>
+
+                      <h4 class="price_link">Read full story</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section_ai">
         <div class="container">
-        <div class="ai_wrapper">
+          <div class="ai_wrapper">
             <div class="ai_content">
-                <h1 class="ai_heading">AI for <br>
-                    Business 
-                    Leaders</h1>
-                    <p class="ai_text">Build an AI-habit for you and 
-                        your team that builds hands-
-                        on skills to help you lead 
-                        effectively.</p>
-                        <button class="ai_btn">Start Learning</button>
+              <h1 class="ai_heading">
+                AI for <br />
+                Business Leaders
+              </h1>
+              <p class="ai_text">
+                Build an AI-habit for you and your team that builds hands- on
+                skills to help you lead effectively.
+              </p>
+              <button class="ai_btn">Start Learning</button>
             </div>
-            <img src="/assets/Image (3).svg" alt="" class="ai_img">
+            <img src="/assets/Image (3).svg" alt="" class="ai_img" />
+          </div>
         </div>
-    </div>
-
       </section>
       <section class="companies">
         <div class="container">
-         <div class="gpt-wrapper">
-             <h1 class="gpt-top-title">Trending Now</h1>
-             <div class="line"></div>   
-             <ul class="gpt-main">
-                <li class="gpt-item special">
-<h1 class="gpt-item-title sp">ChatGPT is a top skill</h1>
-<div class="gpt-item-box">
-<p class="gpt-item-link">See ChatGPT courses</p>
-<p class="gpt-item-peoples">4,502,136 learners</p>
-</div>
-<button class="gpt-item-btn">Show all trending skills</button>
-                </li>
+          <div class="gpt-wrapper">
+            <h1 class="gpt-top-title">Trending Now</h1>
+            <div class="line"></div>
+            <ul class="gpt-main">
+              <li class="gpt-item special">
+                <h1 class="gpt-item-title sp">ChatGPT is a top skill</h1>
+                <div class="gpt-item-box">
+                  <p class="gpt-item-link">See ChatGPT courses</p>
+                  <p class="gpt-item-peoples">4,502,136 learners</p>
+                </div>
+                <button class="gpt-item-btn">Show all trending skills</button>
+              </li>
 
-                <li class="gpt-item smallest"><h1 class="gpt-item-title">Development</h1>
-                 <div class="gpt-item-box">
-                     <p class="gpt-item-link">Python</p>
-<p class="gpt-item-peoples">48,165,727 learners</p>
-                 </div>
-                 <div class="gpt-item-box">
-                     <p class="gpt-item-link">Web Development</p>
-<p class="gpt-item-peoples">14,084,120 learners</p>
-                 </div>
-                 <div class="gpt-item-box spm">
-                     <p class="gpt-item-link">Data Science</p>
-<p class="gpt-item-peoples">7,860,822 learners</p>
-                 </div>
-             </li>
+              <li class="gpt-item smallest">
+                <h1 class="gpt-item-title">Development</h1>
+                <div class="gpt-item-box">
+                  <p class="gpt-item-link">Python</p>
+                  <p class="gpt-item-peoples">48,165,727 learners</p>
+                </div>
+                <div class="gpt-item-box">
+                  <p class="gpt-item-link">Web Development</p>
+                  <p class="gpt-item-peoples">14,084,120 learners</p>
+                </div>
+                <div class="gpt-item-box spm">
+                  <p class="gpt-item-link">Data Science</p>
+                  <p class="gpt-item-peoples">7,860,822 learners</p>
+                </div>
+              </li>
 
-             <li class="gpt-item"><h1 class="gpt-item-title">Design</h1>
-                 <div class="gpt-item-box">
-                     <p class="gpt-item-link">Blender</p>
-<p class="gpt-item-peoples">2,939,428 learners</p>
-                 </div>
-                 <div class="gpt-item-box">
-                     <p class="gpt-item-link">Graphic Design</p>
-<p class="gpt-item-peoples">4,523,089 learners</p>
-                 </div>
-                 <div class="gpt-item-box spm">
-                     <p class="gpt-item-link">User Experience (UX) Design</p>
-<p class="gpt-item-peoples">2,083,324 learners</p>
-                 </div>
-             </li>
+              <li class="gpt-item">
+                <h1 class="gpt-item-title">Design</h1>
+                <div class="gpt-item-box">
+                  <p class="gpt-item-link">Blender</p>
+                  <p class="gpt-item-peoples">2,939,428 learners</p>
+                </div>
+                <div class="gpt-item-box">
+                  <p class="gpt-item-link">Graphic Design</p>
+                  <p class="gpt-item-peoples">4,523,089 learners</p>
+                </div>
+                <div class="gpt-item-box spm">
+                  <p class="gpt-item-link">User Experience (UX) Design</p>
+                  <p class="gpt-item-peoples">2,083,324 learners</p>
+                </div>
+              </li>
 
-             <li class="gpt-item bigger"><h1 class="gpt-item-title">Business</h1>
-                 <div class="gpt-item-box">
-                     <p class="gpt-item-link">PMI Project Management Professional (PMP)</p>
-<p class="gpt-item-peoples">2,611,162 learners</p>
-                 </div>
-                 <div class="gpt-item-box">
-                     <p class="gpt-item-link">Microsoft Power BI</p>
-<p class="gpt-item-peoples">4,707,514 learners</p>
-                 </div>
-                 <div class="gpt-item-box spm">
-                     <p class="gpt-item-link">Project Management</p>
-<p class="gpt-item-peoples">4,042,309 learners</p>
-                 </div>
-             </li>
+              <li class="gpt-item bigger">
+                <h1 class="gpt-item-title">Business</h1>
+                <div class="gpt-item-box">
+                  <p class="gpt-item-link">
+                    PMI Project Management Professional (PMP)
+                  </p>
+                  <p class="gpt-item-peoples">2,611,162 learners</p>
+                </div>
+                <div class="gpt-item-box">
+                  <p class="gpt-item-link">Microsoft Power BI</p>
+                  <p class="gpt-item-peoples">4,707,514 learners</p>
+                </div>
+                <div class="gpt-item-box spm">
+                  <p class="gpt-item-link">Project Management</p>
+                  <p class="gpt-item-peoples">4,042,309 learners</p>
+                </div>
+              </li>
+            </ul>
 
-             </ul>
-
-             <div class="booz-wrapper">
-                 <div class="left">
-                     <h1 class="booz-top-title">Booz | Allen | Hamilton</h1>
-                     <h1 class="booz-title">Booz Allen Hamilton Unlocks Talent Retention and Productivity Through Upskilling</h1>
-                     <div class="booz-percentage-wrapper">
-                         <div class="booz-item"><h1 class="booz-item-percentage">93%</h1>
-                             <p class="booz-item-txt">retention rate among participating employees</p>
-                         </div>
-                         <div class="booz-item"><h1 class="booz-item-percentage">65%</h1>
-                             <p class="booz-item-txt">retention rate among participating employees</p>
-                         </div>
-                        
-                     </div>
-                      <button class="booz-btn">Read full story</button>
-                 </div>
-                 <div class="right">
-                     <img src="/assets/Image [ub-case-study-slide_image-square__loJh8].png" alt="" class="booz-right-img">
-                 </div>
-             </div>
-         </div>
+            <div class="booz-wrapper">
+              <div class="left">
+                <h1 class="booz-top-title">Booz | Allen | Hamilton</h1>
+                <h1 class="booz-title">
+                  Booz Allen Hamilton Unlocks Talent Retention and Productivity
+                  Through Upskilling
+                </h1>
+                <div class="booz-percentage-wrapper">
+                  <div class="booz-item">
+                    <h1 class="booz-item-percentage">93%</h1>
+                    <p class="booz-item-txt">
+                      retention rate among participating employees
+                    </p>
+                  </div>
+                  <div class="booz-item">
+                    <h1 class="booz-item-percentage">65%</h1>
+                    <p class="booz-item-txt">
+                      retention rate among participating employees
+                    </p>
+                  </div>
+                </div>
+                <button class="booz-btn">Read full story</button>
+              </div>
+              <div class="right">
+                <img
+                  src="/assets/Image [ub-case-study-slide_image-square__loJh8].png"
+                  alt=""
+                  class="booz-right-img"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-     </section>
-     
+      </section>
     </main>
-
-   
+    <footer class="footer">
+      <div class="conatiner">
+        <div class="footer__wrapper">
+          <div class="footer__online-world">
+            <div class="online-world-left">
+              <h4 class="online-world-left-title">Teach the world online</h4>
+              <div class="online-world-left-text">
+                Create an online video course, reach students across the globe,
+                and earn money
+              </div>
+            </div>
+            <button class="online-world-left-btn">Teach on Udemy</button>
+          </div>
+          <div class="footer__career-skills">
+            <div class="footer__career-skill-text">
+              Top companies choose
+              <a href="#" class="footer__career-skill-link">Udemy Business</a>
+              to build in-demand career skills.
+            </div>
+            <div class="footer__career-skill-logos">
+              <a href="#" class="career-skill-link">
+                <img src="/assets/Nasdaq.png" alt="" class="career-skill-img" />
+              </a>
+              <a href="#" class="career-skill-link">
+                <img
+                  src="/assets/Volkswagen.png"
+                  alt=""
+                  class="career-skill-img"
+                />
+              </a>
+              <a href="#" class="career-skill-link">
+                <img src="/assets/NetApp.png" alt="" class="career-skill-img" />
+              </a>
+              <a href="#" class="career-skill-link">
+                <img
+                  src="/assets/Eventbrite.png"
+                  alt=""
+                  class="career-skill-img"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="footer__main-side">
+            <h3 class="footer__main-title">
+              Explore top skills and certifications
+            </h3>
+            <ul class="footere__main-menu">
+              <li class="main-menu-list">
+                <h4 class="main-menu-title">In-demand Careers</h4>
+                <ul class="main-mini-menu">
+                  <li class="mini-menu-list">
+                    <p class="mini-menu-text">Data Scientist</p>
+                    <p class="mini-menu-text">Full Stack Web Developer</p>
+                    <p class="mini-menu-text">Cloud Engineer</p>
+                    <p class="mini-menu-text">Project Manager</p>
+                    <p class="mini-menu-text">Game Developer</p>
+                    <p class="mini-menu-text">See all Career Accelerators</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="main-menu-list">
+                <h4 class="main-menu-title">Web Development</h4>
+                <ul class="main-mini-menu">
+                  <li class="mini-menu-list">
+                    <p class="mini-menu-text">Web Development</p>
+                    <p class="mini-menu-text">JavaScript</p>
+                    <p class="mini-menu-text">React JS</p>
+                    <p class="mini-menu-text">Angular</p>
+                    <p class="mini-menu-text">Java</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="main-menu-list">
+                <h4 class="main-menu-title">IT Certifications</h4>
+                <ul class="main-mini-menu">
+                  <li class="mini-menu-list">
+                    <p class="mini-menu-text">Amazon AWS</p>
+                    <p class="mini-menu-text">
+                      AWS Certified Cloud Practitioner
+                    </p>
+                    <p class="mini-menu-text">
+                      AZ-900: Microsoft Azure Fundamentals
+                    </p>
+                    <p class="mini-menu-text">
+                      AWS Certified Solutions Architect - Associate
+                    </p>
+                    <p class="mini-menu-text">Kubernetes</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="main-menu-list">
+                <h4 class="main-menu-title">Leadership</h4>
+                <ul class="main-mini-menu">
+                  <li class="mini-menu-list">
+                    <p class="mini-menu-text">Leadership</p>
+                    <p class="mini-menu-text">Management Skills</p>
+                    <p class="mini-menu-text">Project Management</p>
+                    <p class="mini-menu-text">Personal Productivity</p>
+                    <p class="mini-menu-text">Emotional Intelligence</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="main-menu-list">
+                <h4 class="main-menu-title">Certifications by Skill</h4>
+                <ul class="main-mini-menu">
+                  <li class="mini-menu-list">
+                    <p class="mini-menu-text">Cybersecurity Certification</p>
+                    <p class="mini-menu-text">
+                      Project Management Certification
+                    </p>
+                    <p class="mini-menu-text">Cloud Certification</p>
+                    <p class="mini-menu-text">Data Analytics Certification</p>
+                    <p class="mini-menu-text">HR Management Certification</p>
+                    <p class="mini-menu-text">See all Certifications</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="main-menu-list">
+                <h4 class="main-menu-title">Data Science</h4>
+                <ul class="main-mini-menu">
+                  <li class="mini-menu-list">
+                    <p class="mini-menu-text">Data Science</p>
+                    <p class="mini-menu-text">Python</p>
+                    <p class="mini-menu-text">Machine Learning</p>
+                    <p class="mini-menu-text">ChatGPT</p>
+                    <p class="mini-menu-text">ChatGPT</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="main-menu-list">
+                <h4 class="main-menu-title">Communication</h4>
+                <ul class="main-mini-menu">
+                  <li class="mini-menu-list">
+                    <p class="mini-menu-text">Communication Skills</p>
+                    <p class="mini-menu-text">Presentation Skills</p>
+                    <p class="mini-menu-text">Public Speaking</p>
+                    <p class="mini-menu-text">Writing</p>
+                    <p class="mini-menu-text">PowerPoint</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="main-menu-list">
+                <h4 class="main-menu-title">
+                  Business Analytics & Intelligence
+                </h4>
+                <ul class="main-mini-menu">
+                  <li class="mini-menu-list">
+                    <p class="mini-menu-text">Microsoft Excel</p>
+                    <p class="mini-menu-text">SQL</p>
+                    <p class="mini-menu-text">Microsoft Power BI</p>
+                    <p class="mini-menu-text">Data Analysis</p>
+                    <p class="mini-menu-text">Business Analysis</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__info">
+            <ul class="footer__info-menu">
+              <li class="footer__info-list">
+                <ul class="footere__info-mini-menu">
+                  <h3 class="info-mini-menu-title">About</h3>
+                  <li class="info-mini-menu-list">
+                    <a href="#" class="info-mini-menu-link">About us</a>
+                    <a href="#" class="info-mini-menu-link">Careers</a>
+                    <a href="#" class="info-mini-menu-link">Contact us</a>
+                    <a href="#" class="info-mini-menu-link">Blog</a>
+                    <a href="#" class="info-mini-menu-link">Investors</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__info-list">
+                <ul class="footere__info-mini-menu">
+                  <h3 class="info-mini-menu-title">Discover Udemy</h3>
+                  <li class="info-mini-menu-list">
+                    <a href="#" class="info-mini-menu-link">Get the app</a>
+                    <a href="#" class="info-mini-menu-link">Teach on Udemy</a>
+                    <a href="#" class="info-mini-menu-link"
+                      >Plans and Pricing</a
+                    >
+                    <a href="#" class="info-mini-menu-link">Affiliate</a>
+                    <a href="#" class="info-mini-menu-link">Help and Support</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__info-list">
+                <ul class="footere__info-mini-menu">
+                  <h3 class="info-mini-menu-title">Udemy for Business</h3>
+                  <li class="info-mini-menu-list">
+                    <a href="#" class="info-mini-menu-link">Udemy Business</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__info-list">
+                <ul class="footere__info-mini-menu">
+                  <h3 class="info-mini-menu-title">Legal & Accessibility</h3>
+                  <li class="info-mini-menu-list">
+                    <a href="#" class="info-mini-menu-link"
+                      >Accessibility statement</a
+                    >
+                    <a href="#" class="info-mini-menu-link">Privacy policy</a>
+                    <a href="#" class="info-mini-menu-link">Sitemap</a>
+                    <a href="#" class="info-mini-menu-link">Terms</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__last-page">
+            <div class="footer__logo">
+              <a href="./index.html" class="profile__img footer-img">
+                <img
+                  src="../assets/white color.png"
+                  alt="alt"
+                  class="header__pic"
+                />
+                © 2025 Udemy, Inc.
+              </a>
+              <a href="#" class="footer__settings">Cookie settings</a>
+              <a href="#" class="footer__lang">English</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="/js/course.js"></script>
     <script src="/js/input.js"></script>
-        <script src="/js/index.js"></script>
-        <script src="../js/signUp.js"></script>
-</body>
+    <script src="/js/index.js"></script>
+    <script src="../js/signUp.js"></script>
+  </body>
 </html>

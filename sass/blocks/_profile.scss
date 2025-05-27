@@ -1,0 +1,149 @@
+.profile__header {
+  @include d-flex(space-between, 20px);
+}
+
+.profile__menu {
+  @include d-flex(space-between, 20px);
+}
+.profile__icon-menu {
+  @include d-flex(space-between, 20px);
+}
+.header__input {
+  border-radius: 20px;
+  width: 40%;
+}
+.header-p {
+  padding: 16px 24px;
+  box-shadow: 4px 4px 4px 4px silver;
+}
+.profile__list-link {
+  color: #303141;
+}
+.profile__header__link {
+  color: #303141;
+}
+.icon-link {
+  color: #303141;
+}
+.profile__hero-wrapper {
+  padding: 32px 48px;
+}
+.profile__hero-intro {
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #303141;
+}
+.profile__hero-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #303141;
+}
+.profile__hero-jobs {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 6px 0 14px;
+}
+.profile__hero-partners-btn {
+  color: #3b1b94;
+  border: none;
+  background-color: #d2caff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 84px;
+  font-weight: bold;
+}
+.profiel__hero-people-box {
+  @include d-flex(flex-start, 48px);
+}
+.hero__mini-first-box-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.profile__hero-about-title {
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+.profile__hero_main-info {
+  width: 70%;
+}
+.profile_hero-image {
+  // width: 40%;
+  box-shadow: 10px 10px 10px 10px silver;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 16px;
+  padding: 83px 196px;
+}
+.profile__main-websites {
+  @include d-flex(0,16px);
+}
+.courses__project-box {
+  border: 2px solid silver;
+  padding: 17px;
+  border-radius: 16px;
+}
+.main-site-link {
+  color: #6D28D2;
+  font-size: 22px;
+  border: 2px solid #6D28D2;
+  border-radius: 4px;
+  padding: 4px;
+}
+.profile__hero-wrapper {
+  @include d-flex(space-between,0)
+}
+.none {
+  display: none;
+}
+.div {
+ @include d-flex(0,20px)
+}
+.courses__project-btns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.course-btn {
+  background-color: white;
+  color: #595C73;
+  border: 1px solid #595C73;
+  border-radius: 5px;
+}
+.courses__projects {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+.courses__project-title {
+  font-size: 18px;
+  margin: 16px 0 4px;
+}
+.courses__project-img {
+  width: 100%;
+}
+.del {
+  color: #595C73;
+}
+.course-btn {
+  padding: 3px;
+}
+.courses__project-info {
+  margin-bottom: 4px;
+}
+.courses__project-text {
+  margin-bottom: 14px;
+}
+.courses__projects-price {
+  font-size: 16px;
+}
+.courses__title {
+  margin: 48px 32px;
+  font-size: 24px;
+  font-weight: bold;
+}
