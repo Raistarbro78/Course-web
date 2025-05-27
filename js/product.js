@@ -1,4 +1,3 @@
-
 const singUpForm = document.getElementById("signupForm")
 console.log(singUpForm);
 

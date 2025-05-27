@@ -6,22 +6,146 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    
+    <!-- FontAwesome for stars -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <body>
-    <div class="wrapper">
-<!-- <div class="course-title">JavaScript Algorithms and Data Structures Masterclass</div>
-        <div class="instructor">Colt Steele</div>
-        <div class="rating">
-            <span class="rating-number">4.7</span>
-            <span class="stars">★★★★★</span>
+    
+    <section class="course-section">
+        <div class="container">
+            <h2 class="course-title">What to learn next</h2>
+            <div class="course__viewed-wrapper">
+                <h3 class="course__viewed-title">Because you viewed “ <span
+                    class="course__viewed-title--decoration">JavaScript Data Structures & Algorithms + LEETCODE
+                    Exercises</span> ”</h3>
+                    <div class="swiper viewed-slider">
+                        <div class="swiper-wrapper viewed-list" id="viewedList">
+                            <!-- JS bu yerga slaydlarni joylaydi -->
+                        </div>
+                        
+                        <!-- Navigation tugmalari -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <h3 class="course__learn-title">Learners are viewing</h3>
+                <div class="swiper learn-slider">
+                    <div class="swiper-wrapper" id="learnList">
+                        <!-- Slaydlar bu yerga JS orqali joylanadi -->
+                    </div>
+                    
+                    <!-- Navigatsiya tugmalari -->
+                    <div class="swiper-button-prev learn-button-prev"></div>
+                    <div class="swiper-button-next learn-button-next"></div>
+                </div>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <img src="play-icon.svg" alt="" width="24" height="24">
+                        </div>
+                        <p class="feature__text">Learn in-demand skills with over 250,000 video courses</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <img src="star-icon.svg" alt="" width="24" height="24">
+                        </div>
+                        <p class="feature__text">Choose courses taught by real-world experts</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <img src="infinity-icon.svg" alt="" width="24" height="24">
+                        </div>
+                        <p class="feature__text">Learn at your own pace, with lifetime access on mobile and desktop</p>
+                    </div>
+                </div>
+                
+                <h3 class="course__shortandsweet-title course-subtitle">Short and sweet courses for you</h3>
+                <div class="swiper shortandsweet-slider">
+                    <div class="swiper-wrapper" id="shortAndSweetList">
+                        <!-- Slaydlar bu yerga JS orqali joylanadi -->
+                    </div>
+                    
+                    <!-- Navigatsiya tugmalari -->
+                    <div class="swiper-button-prev shortandsweet-button-prev"></div>
+                    <div class="swiper-button-next shortandsweet-button-next"></div>
+                </div>
+                
+                
+                <h3 class="course__topdev-title course-subtitle">Top courses in Development</h3>
+                <div class="swiper topdev-slider">
+                    <div class="swiper-wrapper" id="topCoursesInDevelopmentList">
+                        <!-- JS orqali slaydlar bu yerga joylanadi -->
+                    </div>
+                    
+                    <!-- Navigatsiya tugmalari -->
+                    <div class="swiper-button-prev topdev-button-prev"></div>
+                    <div class="swiper-button-next topdev-button-next"></div>
+                </div>
+                
+                
+                
+                <h3 class="course__learn-title course-subtitle">Top courses in Design</h3>
+                <div class="swiper topdesign-slider">
+                    <div class="swiper-wrapper" id="topCoursesInDesignList">
+                        <!-- Slaydlar bu yerga JS orqali joylanadi -->
+                    </div>
+                    
+                    <!-- Navigatsiya tugmalari -->
+                    <div class="swiper-button-prev topdesign-button-prev"></div>
+                    <div class="swiper-button-next topdesign-button-next"></div>
+                </div>
+                
+                <h3 class="course__learn-title course-subtitle">Top courses in Business</h3>
+                <div class="swiper topbusiness-slider">
+                    <div class="swiper-wrapper" id="topCoursesInBusinessList">
+                        <!-- Slaydlar bu yerga JS orqali joylanadi -->
+                    </div>
+                    
+                    <!-- Navigatsiya tugmalari -->
+                    <div class="swiper-button-prev topbusiness-button-prev"></div>
+                    <div class="swiper-button-next topbusiness-button-next"></div>
+                </div>
+                
+                <h3 class="course__learn-title course-subtitle">Top courses in IT & Software</h3>
+                <div class="swiper topit-slider">
+                    <div class="swiper-wrapper" id="topCoursesInITList">
+                        <!-- Slaydlar bu yerga JS orqali joylanadi -->
+                    </div>
+                    
+                    <!-- Navigatsiya tugmalari -->
+                    <div class="swiper-button-prev topit-button-prev"></div>
+                    <div class="swiper-button-next topit-button-next"></div>
+                </div>
+                
+                <h3 class="course__learn-title course-subtitle">Top courses in Personal Development</h3>
+                <div class="swiper toppersonal-slider">
+                    <div class="swiper-wrapper" id="topCoursesInPersonalDevList">
+                        <!-- Slaydlar bu yerga JS orqali joylanadi -->
+                    </div>
+                    
+                    <!-- Navigatsiya tugmalari -->
+                    <div class="swiper-button-prev toppersonal-button-prev"></div>
+                    <div class="swiper-button-next toppersonal-button-next"></div>
+                </div>
+                
+            </div>
         </div>
-        <div class="price">
-            <span class="current-price">$9.99</span>
-            <span class="original-price">$74.99</span>
-        </div>
-        <div class="reviews">(29,876 ratings)</div>
-        <div class="bestseller">Bestseller</div> -->
-    </div>
+    </section>
+
 <script src="../js/course.js"></script>
 <script src="../js/newPage.js"></script>
+<script src="../js/product.js"></script>
+<script src="../js/cousePage.js"></script>
 </body>
 </html>
