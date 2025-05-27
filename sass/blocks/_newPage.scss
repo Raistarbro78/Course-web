@@ -31,8 +31,18 @@ li{
     list-style: none;
 }
 
+.swiper-button-prev, .swiper-button-next {
+    width: 60px !important;
+    height: 60px  !important;
+    border-radius: 50%;
+    color: #fff !important;
+    background-color: #f3f3f3;
+    box-shadow:  -4px 0px 6px 2px rgb(241, 241, 241)
+
+}
+
 .course-title {
-    margin-top: 48px;
+    margin-top: 90px;
     margin-bottom: 24px;
     font-family: Georgia;
     font-weight: 700;
@@ -48,6 +58,10 @@ li{
     line-height: 28.8px;
     letter-spacing: 0%;
     margin-bottom: 10px;
+}
+
+.course-subtitle {
+    margin-top: 80px;
 }
 
 .course__viewed-title--decoration {

@@ -122,6 +122,20 @@ transition: 0.7s ease-in-out;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.homepage{
+  background: linear-gradient(135deg, #46e57b, #3bf65a);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
 .btn:hover{
   background: linear-gradient(135deg, #4338ca, #2563eb); 
   transform: translateY(-2px);
@@ -136,9 +150,6 @@ transition: 0.7s ease-in-out;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   width: 350px;
-  position: absolute;
-  left: 900px;
-  top: 250px;
 }
 
 #name{
@@ -194,4 +205,8 @@ transition: 0.7s ease-in-out;
   column-gap: 40px ;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(1,1fr);
+}
+
+.div_wrapper{
+  margin-top: 400px;
 }
