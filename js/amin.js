@@ -381,6 +381,8 @@ let showsmorebtn = document.querySelector(".add-cart")
 
 showsmorebtn.addEventListener("click" , () =>{
 
+
+
 courses.forEach(course => {
     let item = document.createElement("li")
     item.classList.add("cart-item")

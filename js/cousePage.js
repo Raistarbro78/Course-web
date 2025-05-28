@@ -4,10 +4,15 @@ function renderViewedCourses(courses) {
         console.error('Element with id "viewedList" not found.');
         return;
     }
-    viewedList.innerHTML = ''; // Clear old content
+    viewedList.innerHTML = '';
+
+    let copyCourse = [...courses]
+
+    filtered = copyCourse.sort(() => Math.random() - 0.5);
     
-    courses.forEach(course => {
+    filtered.forEach(course => {
         const {
+            id,
             title,
             author,
             rating,
@@ -21,9 +26,9 @@ function renderViewedCourses(courses) {
         slide.className = 'swiper-slide';
         
         slide.innerHTML = `
-      <li class="card">
+      <a href="./amin.html?id=${id}" class="card">
         <main class="card__content">
-          <img src="${img}" width="236" height="132" alt="${title}">
+          <img src="/assets/${img}" width="236" height="132" alt="${title}">
         </main>
         <header class="card__header">
           <h4 class="card__title">${title}</h4>
@@ -41,16 +46,16 @@ function renderViewedCourses(courses) {
           </div>
           <div class="card__badge">Bestseller</div>
         </footer>
-      </li>
+      </a>
     `;
         
         viewedList.appendChild(slide);
     });
     
-    // Sliderni ishga tushirish
+  
     if (typeof Swiper !== "undefined") {
         new Swiper('.viewed-slider', {
-            slidesPerView: 5, // 🟢 Bu yerda 5 ta slayd ko‘rsatamiz
+            slidesPerView: 5,
             spaceBetween: 20,
             navigation: {
                 nextEl: '.swiper-button-next',
@@ -62,7 +67,7 @@ function renderViewedCourses(courses) {
                 640: { slidesPerView: 2 },
                 768: { slidesPerView: 3 },
                 1024: { slidesPerView: 4 },
-                1280: { slidesPerView: 5 } // 🟢 Katta ekranda 5 ta
+                1280: { slidesPerView: 5 } 
             }
         });
     } else {
@@ -91,10 +96,14 @@ function renderLearnList(courses) {
         console.error('Element with id "learnList" not found.');
         return;
     }
+
+    let copyCourse = [...courses]
+
+    filtered = copyCourse.sort(() => Math.random() - 0.5);
     
-    learnList.innerHTML = ''; // Oldingi contentni tozalash
+    learnList.innerHTML = ''; 
     
-    courses.forEach(course => {
+    filtered.forEach(course => {
         const {
             title,
             author,
@@ -111,7 +120,7 @@ function renderLearnList(courses) {
         slide.innerHTML = `
             <li class="card">
         <main class="card__content">
-          <img src="${img}" width="236" height="132" alt="${title}">
+          <img src="/assets/${img}" width="236" height="132" alt="${title}">
         </main>
         <header class="card__header">
           <h4 class="card__title">${title}</h4>
@@ -135,7 +144,6 @@ function renderLearnList(courses) {
         learnList.appendChild(slide);
     });
     
-    // Swiper sliderni ishga tushirish
     if (typeof Swiper !== "undefined") {
         new Swiper('.learn-slider', {
             slidesPerView: 5,
@@ -168,9 +176,7 @@ function renderShortAndSweetList(courses) {
         return;
     }
     
-    shortAndSweetList.innerHTML = ''; // Tozalash
-    
-    // 🔎 Narxi $10 dan kam bo‘lgan kurslar
+    shortAndSweetList.innerHTML = ''; 
     const filteredCourses = courses.filter(course => {
         const priceToCheck = course.discountPrice ?? course.price;
         return priceToCheck < 15;
@@ -193,7 +199,7 @@ function renderShortAndSweetList(courses) {
         slide.innerHTML = `
             <li class="card">
                 <main class="card__content">
-                    <img src="${img}" width="236" height="132" alt="${title}">
+                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>
@@ -217,7 +223,6 @@ function renderShortAndSweetList(courses) {
         shortAndSweetList.appendChild(slide);
     });
     
-    // Swiper ishlatish
     if (typeof Swiper !== "undefined") {
         new Swiper('.shortandsweet-slider', {
             slidesPerView: 5,
@@ -251,7 +256,6 @@ function renderTopCoursesInDevelopmentList(courses) {
     
     container.innerHTML = '';
     
-    // 🔍 Development bilan bog‘liq kalit so‘zlar
     const devKeywords = ["java", "development", "react", "node", "backend", "frontend", "web", "spring", "html", "css"];
     
     const filtered = courses.filter(course =>
@@ -277,7 +281,7 @@ function renderTopCoursesInDevelopmentList(courses) {
         slide.innerHTML = `
       <li class="card">
         <main class="card__content">
-          <img src="${img}" width="236" height="132" alt="${title}">
+          <img src="/assets/${img}" width="236" height="132" alt="${title}">
         </main>
         <header class="card__header">
           <h4 class="card__title">${title}</h4>
@@ -332,15 +336,12 @@ function renderTopCoursesInDevelopmentList(courses) {
         return;
     }
     
-    container.innerHTML = ''; // Tozalash
-    
-    // 🔍 Filter: reytingi 4.5 yoki yuqori bo‘lgan kurslar
+    container.innerHTML = ''; 
+
     let filtered = courses.filter(course => course.rating >= 4.5);
     
-    // 🔄 Shuffle: tartibni tasodifiy aralashtirish
     filtered = filtered.sort(() => Math.random() - 0.5);
     
-    // 🔁 Har bir kursni chiqarish
     filtered.forEach(course => {
         const {
             title,
@@ -358,7 +359,7 @@ function renderTopCoursesInDevelopmentList(courses) {
         slide.innerHTML = `
             <li class="card">
                 <main class="card__content">
-                    <img src="${img}" width="236" height="132" alt="${title}">
+                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>
@@ -382,7 +383,6 @@ function renderTopCoursesInDevelopmentList(courses) {
         container.appendChild(slide);
     });
     
-    // Swiper sliderni ishga tushurish
     if (typeof Swiper !== "undefined") {
         new Swiper(".topdev-slider", {
             slidesPerView: 5,
@@ -415,18 +415,15 @@ function renderTopCoursesInDesignList(courses) {
         return;
     }
     
-    container.innerHTML = ''; // Tozalash
-    
-    // 🔍 Faqat Design bo‘limidagi, reytingi 4.5 yoki undan yuqori kurslar
+    container.innerHTML = ''; 
+
     let filtered = courses.filter(course =>  course.rating >= 4.5
-        // course.category === "Design" &&
+        
     );
     
     
-    // 🔄 Shuffle: tasodifiy tartib
     filtered = filtered.sort(() => Math.random() - 0.5);
     
-    // 🔁 Har bir kursni chiqarish
     filtered.forEach(course => {
         const {
             title,
@@ -444,7 +441,7 @@ function renderTopCoursesInDesignList(courses) {
         slide.innerHTML = `
             <li class="card">
                 <main class="card__content">
-                    <img src="${img}" width="236" height="132" alt="${title}">
+                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>
@@ -468,7 +465,6 @@ function renderTopCoursesInDesignList(courses) {
         container.appendChild(slide);
     });
     
-    // Swiper sliderni ishga tushurish
     if (typeof Swiper !== "undefined") {
         new Swiper(".topdesign-slider", {
             slidesPerView: 5,
@@ -499,18 +495,15 @@ function renderTopCoursesInBusinessList(courses) {
         return;
     }
 
-    container.innerHTML = ''; // Tozalash
+    container.innerHTML = ''; 
 
-    // 🔍 Faqat Business bo‘limidagi, reytingi 4.5 yoki undan yuqori kurslar
     let filtered = courses.filter(course => 
        course.rating >= 4.5
-       // course.category === "Business" && 
+       
     );
 
-    // 🔄 Shuffle: tasodifiy tartib
     filtered = filtered.sort(() => Math.random() - 0.5);
 
-    // 🔁 Har bir kursni chiqarish
     filtered.forEach(course => {
         const {
             title,
@@ -528,7 +521,7 @@ function renderTopCoursesInBusinessList(courses) {
         slide.innerHTML = `
             <li class="card">
                 <main class="card__content">
-                    <img src="${img}" width="236" height="132" alt="${title}">
+                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>
@@ -552,7 +545,6 @@ function renderTopCoursesInBusinessList(courses) {
         container.appendChild(slide);
     });
 
-    // Swiper sliderni ishga tushurish
     if (typeof Swiper !== "undefined") {
         new Swiper(".topbusiness-slider", {
             slidesPerView: 5,
@@ -584,18 +576,15 @@ function renderTopCoursesInITList(courses) {
         return;
     }
 
-    container.innerHTML = ''; // Tozalash
+    container.innerHTML = ''; 
 
-    // 🔍 Faqat IT & Software bo‘limidagi, reytingi 4.5 yoki undan yuqori kurslar
     let filtered = courses.filter(course => 
         course.rating >= 4.5
-        //course.category === "IT & Software" && 
+        
     );
 
-    // 🔄 Shuffle: tasodifiy tartib
     filtered = filtered.sort(() => Math.random() - 0.5);
 
-    // 🔁 Har bir kursni chiqarish
     filtered.forEach(course => {
         const {
             title,
@@ -613,7 +602,7 @@ function renderTopCoursesInITList(courses) {
         slide.innerHTML = `
             <li class="card">
                 <main class="card__content">
-                    <img src="${img}" width="236" height="132" alt="${title}">
+                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>
@@ -637,7 +626,6 @@ function renderTopCoursesInITList(courses) {
         container.appendChild(slide);
     });
 
-    // Swiper sliderni ishga tushurish
     if (typeof Swiper !== "undefined") {
         new Swiper(".topit-slider", {
             slidesPerView: 5,
@@ -669,18 +657,14 @@ function renderTopCoursesInPersonalDevList(courses) {
         return;
     }
 
-    container.innerHTML = ''; // Tozalash
+    container.innerHTML = ''; 
 
-    // 🔍 Faqat Personal Development bo‘limidagi, reytingi 4.5 yoki undan yuqori kurslar
     let filtered = courses.filter(course => 
-        //course.category === "Personal Development" &&
          course.rating >= 4.5
     );
 
-    // 🔄 Shuffle: tasodifiy tartib
     filtered = filtered.sort(() => Math.random() - 0.5);
 
-    // 🔁 Har bir kursni chiqarish
     filtered.forEach(course => {
         const {
             title,
@@ -698,7 +682,7 @@ function renderTopCoursesInPersonalDevList(courses) {
         slide.innerHTML = `
             <li class="card">
                 <main class="card__content">
-                    <img src="${img}" width="236" height="132" alt="${title}">
+                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>
@@ -722,7 +706,6 @@ function renderTopCoursesInPersonalDevList(courses) {
         container.appendChild(slide);
     });
 
-    // Swiper sliderni ishga tushurish
     if (typeof Swiper !== "undefined") {
         new Swiper(".toppersonal-slider", {
             slidesPerView: 5,
