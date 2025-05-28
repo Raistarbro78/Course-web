@@ -1,12 +1,6 @@
-// header hero mediasi
 
-@media only screen and (max-width: 1410px) {
-  #headerInput {
-    width: 460px;
-  }
-  .course-text {
-    text-align: left;
-  }
+@media (max-width: 576px) {
+  
 }
 
 @media only screen and (max-width: 1400px) {
@@ -21,7 +15,7 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   .lessons__main_box {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -31,12 +25,23 @@
   }
   .bi-list {
     display: block;
+}
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
   }
-  .br {
+  .world-button{
     display: none;
   }
-  .listbox-text {
-    font-size: 10px;
+  .navbar-center{
+    display: none;
+}
+.explore{
+    display: none;
+}
+.header-link{
+    display: none;
   }
 
   .header__btns {
