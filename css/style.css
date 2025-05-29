@@ -256,7 +256,7 @@ a {
 
 .hero {
   padding: 64px 0 140px 0;
-  background-image: url("/assets/hero main.png");
+  background-image: url("../assets/heromain.png");
   background-repeat: no-repeat;
   background-position: center;
   margin-top: 27px;
