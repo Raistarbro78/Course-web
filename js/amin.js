@@ -416,7 +416,7 @@ courses.forEach(course => {
 
 item.innerHTML = `
  <img
-                  src="/assets/${course.img}"
+                  src="/imgs/${course.img}"
                   alt=""
                   class="cart-item-img"
                 />
