@@ -28,7 +28,7 @@ function renderViewedCourses(courses) {
         slide.innerHTML = `
       <a href="./amin.html?id=${id}" class="card">
         <main class="card__content">
-          <img src="/assets/${img}" width="236" height="132" alt="${title}">
+          <img src="../assets/${img}" width="236" height="132" alt="${title}">
         </main>
         <header class="card__header">
           <h4 class="card__title">${title}</h4>
@@ -121,7 +121,7 @@ function renderLearnList(courses) {
         slide.innerHTML = `
             <a  href="./amin.html?id=${id}" class="card">
         <main class="card__content">
-          <img src="/assets/${img}" width="236" height="132" alt="${title}">
+          <img src="../assets/${img}" width="236" height="132" alt="${title}">
         </main>
         <header class="card__header">
           <h4 class="card__title">${title}</h4>
@@ -201,7 +201,7 @@ function renderShortAndSweetList(courses) {
         slide.innerHTML = `
             <a  href="./amin.html?id=${id}" class="card">
                 <main class="card__content">
-                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
+                    <img src="../assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>
@@ -284,7 +284,7 @@ function renderTopCoursesInDevelopmentList(courses) {
         slide.innerHTML = `
       <a href="./amin.html?id=${id}" class="card">
         <main class="card__content">
-          <img src="/assets/${img}" width="236" height="132" alt="${title}">
+          <img src="../assets/${img}" width="236" height="132" alt="${title}">
         </main>
         <header class="card__header">
           <h4 class="card__title">${title}</h4>
@@ -363,7 +363,7 @@ function renderTopCoursesInDevelopmentList(courses) {
         slide.innerHTML = `
             <a href="./amin.html?id=${id}" class="card">
                 <main class="card__content">
-                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
+                    <img src="../assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>
@@ -446,7 +446,7 @@ function renderTopCoursesInDesignList(courses) {
         slide.innerHTML = `
             <a  href="./amin.html?id=${id}" class="card">
                 <main class="card__content">
-                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
+                    <img src="../assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>
@@ -527,7 +527,7 @@ function renderTopCoursesInBusinessList(courses) {
         slide.innerHTML = `
             <a  href="./amin.html?id=${id}"class="card">
                 <main class="card__content">
-                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
+                    <img src="../assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>
@@ -609,7 +609,7 @@ function renderTopCoursesInITList(courses) {
         slide.innerHTML = `
             <a  href="./amin.html?id=${id}" class="card">
                 <main class="card__content">
-                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
+                    <img src="../assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>
@@ -690,7 +690,7 @@ function renderTopCoursesInPersonalDevList(courses) {
         slide.innerHTML = `
             <a  href="./amin.html?id=${id}" class="card">
                 <main class="card__content">
-                    <img src="/assets/${img}" width="236" height="132" alt="${title}">
+                    <img src="../assets/${img}" width="236" height="132" alt="${title}">
                 </main>
                 <header class="card__header">
                     <h4 class="card__title">${title}</h4>

@@ -59,7 +59,7 @@ let boughtlist = document.querySelector('.bought-list')
 
 showmorebtn.addEventListener("click" , () =>{
 boughtlist.insertAdjacentHTML("beforeend" , `
-    <li class="bought-item"><img src="/1362070_b9a1_2.jpg.png" alt="" class="bought-item-img">
+    <li class="bought-item"><img src="../1362070_b9a1_2.jpg.png" alt="" class="bought-item-img">
                             <div class="bought-box">
 <div class="left-bought">
                                 <h1 class="bought-box-title">React - The Complete Guide 2025 (incl.
@@ -71,8 +71,8 @@ Next.js, Redux)</h1><div class="bought-box-bottom">
 </div>
 
 <div class="bought-box-info">
-    <p class="header-star">4.7 <img src="/SVG.svg" alt="" /></p>
-    <p class="bought-peoples"><img src="/icon-people.svg" alt="" class="icon-people"> 962,106</p>
+    <p class="header-star">4.7 <img src="../SVG.svg" alt="" /></p>
+    <p class="bought-peoples"><img src="../icon-people.svg" alt="" class="icon-people"> 962,106</p>
     <div class="bought-price-box">
         $9.99 <br>
         <del>$74.99</del>
@@ -84,7 +84,7 @@ Next.js, Redux)</h1><div class="bought-box-bottom">
                         </li>
 
 
-                         <li class="bought-item"><img src="/1362070_b9a1_2.jpg.png" alt="" class="bought-item-img">
+                         <li class="bought-item"><img src="../1362070_b9a1_2.jpg.png" alt="" class="bought-item-img">
                             <div class="bought-box">
 <div class="left-bought">
                                 <h1 class="bought-box-title">React - The Complete Guide 2025 (incl.
@@ -96,8 +96,8 @@ Next.js, Redux)</h1><div class="bought-box-bottom">
 </div>
 
 <div class="bought-box-info">
-    <p class="header-star">4.7 <img src="/SVG.svg" alt="" /></p>
-    <p class="bought-peoples"><img src="/icon-people.svg" alt="" class="icon-people"> 962,106</p>
+    <p class="header-star">4.7 <img src="../SVG.svg" alt="" /></p>
+    <p class="bought-peoples"><img src="../icon-people.svg" alt="" class="icon-people"> 962,106</p>
     <div class="bought-price-box">
         $9.99 <br>
         <del>$74.99</del>
@@ -109,7 +109,7 @@ Next.js, Redux)</h1><div class="bought-box-bottom">
                         </li>
 
 
-                         <li class="bought-item"><img src="/1362070_b9a1_2.jpg.png" alt="" class="bought-item-img">
+                         <li class="bought-item"><img src="../1362070_b9a1_2.jpg.png" alt="" class="bought-item-img">
                             <div class="bought-box">
 <div class="left-bought">
                                 <h1 class="bought-box-title">React - The Complete Guide 2025 (incl.
@@ -121,8 +121,8 @@ Next.js, Redux)</h1><div class="bought-box-bottom">
 </div>
 
 <div class="bought-box-info">
-    <p class="header-star">4.7 <img src="/SVG.svg" alt="" /></p>
-    <p class="bought-peoples"><img src="/icon-people.svg" alt="" class="icon-people"> 962,106</p>
+    <p class="header-star">4.7 <img src="../SVG.svg" alt="" /></p>
+    <p class="bought-peoples"><img src="../icon-people.svg" alt="" class="icon-people"> 962,106</p>
     <div class="bought-price-box">
         $9.99 <br>
         <del>$74.99</del>
@@ -134,7 +134,7 @@ Next.js, Redux)</h1><div class="bought-box-bottom">
                         </li>
 
 
-                         <li class="bought-item"><img src="/1362070_b9a1_2.jpg.png" alt="" class="bought-item-img">
+                         <li class="bought-item"><img src="../1362070_b9a1_2.jpg.png" alt="" class="bought-item-img">
                             <div class="bought-box">
 <div class="left-bought">
                                 <h1 class="bought-box-title">React - The Complete Guide 2025 (incl.
@@ -147,19 +147,19 @@ Next.js, Redux)</h1><div class="bought-box-bottom">
 
 <div class="bought-box-info">
     <p class="header-star">4.7 <img src="/SVG.svg" alt="" /></p>
-    <p class="bought-peoples"><img src="/icon-people.svg" alt="" class="icon-people"> 962,106</p>
+    <p class="bought-peoples"><img src="../icon-people.svg" alt="" class="icon-people"> 962,106</p>
     <div class="bought-price-box">
         $9.99 <br>
         <del>$74.99</del>
     </div>
-    <button class="heart"><img src="/SVG (6).svg" alt=""></button>
+    <button class="heart"><img src="../SVG (6).svg" alt=""></button>
 </div>
 
                             </div>
                         </li>
 
 
-                         <li class="bought-item"><img src="/1362070_b9a1_2.jpg.png" alt="" class="bought-item-img">
+                         <li class="bought-item"><img src="../1362070_b9a1_2.jpg.png" alt="" class="bought-item-img">
                             <div class="bought-box">
 <div class="left-bought">
                                 <h1 class="bought-box-title">React - The Complete Guide 2025 (incl.
@@ -171,8 +171,8 @@ Next.js, Redux)</h1><div class="bought-box-bottom">
 </div>
 
 <div class="bought-box-info">
-    <p class="header-star">4.7 <img src="/SVG.svg" alt="" /></p>
-    <p class="bought-peoples"><img src="/icon-people.svg" alt="" class="icon-people"> 962,106</p>
+    <p class="header-star">4.7 <img src="../SVG.svg" alt="" /></p>
+    <p class="bought-peoples"><img src="../icon-people.svg" alt="" class="icon-people"> 962,106</p>
     <div class="bought-price-box">
         $9.99 <br>
         <del>$74.99</del>
@@ -199,7 +199,7 @@ adderWrapper.insertAdjacentHTML('beforeend' , `
         <div class="rating-avatar">CB</div>
         <div>
           <div class="rating-name">Carlos B.</div>
-          <div class="rating-meta"><img src="/icon-rating-star.svg" alt="" class="rating-star-rate"> • 8 weeks ago</div>
+          <div class="rating-meta"><img src="../icon-rating-star.svg" alt="" class="rating-star-rate"> • 8 weeks ago</div>
         </div>
       </div>
       <p class="rating-text">Sim não se pode pedir muito mais, abordou-se muitos temas e foi um ensino sincero...</p>
@@ -214,7 +214,7 @@ adderWrapper.insertAdjacentHTML('beforeend' , `
         <div class="rating-avatar">MZ</div>
         <div>
           <div class="rating-name">Mao Z.</div>
-          <div class="rating-meta"><img src="/icon-rating-star.svg" alt="" class="rating-star-rate"> • 8 weeks ago</div>
+          <div class="rating-meta"><img src="../icon-rating-star.svg" alt="" class="rating-star-rate"> • 8 weeks ago</div>
         </div>
       </div>
       <p class="rating-text">Jonas is absolutely an excellent teacher, this course is well prepared and presented...</p>
@@ -229,7 +229,7 @@ adderWrapper.insertAdjacentHTML('beforeend' , `
         <div class="rating-avatar">CB</div>
         <div>
           <div class="rating-name">Carlos B.</div>
-          <div class="rating-meta"><img src="/icon-rating-star.svg" alt="" class="rating-star-rate"> • 8 weeks ago</div>
+          <div class="rating-meta"><img src="../icon-rating-star.svg" alt="" class="rating-star-rate"> • 8 weeks ago</div>
         </div>
       </div>
       <p class="rating-text">Sim não se pode pedir muito mais, abordou-se muitos temas e foi um ensino sincero...</p>
@@ -245,7 +245,7 @@ adderWrapper.insertAdjacentHTML('beforeend' , `
         <div class="rating-avatar">CB</div>
         <div>
           <div class="rating-name">Carlos B.</div>
-          <div class="rating-meta"><img src="/icon-rating-star.svg" alt="" class="rating-star-rate"> • 8 weeks ago</div>
+          <div class="rating-meta"><img src="../icon-rating-star.svg" alt="" class="rating-star-rate"> • 8 weeks ago</div>
         </div>
       </div>
       <p class="rating-text">Sim não se pode pedir muito mais, abordou-se muitos temas e foi um ensino sincero...</p>
@@ -263,7 +263,7 @@ yoifyourntsarvardontfuckinignoreme.addEventListener("click" , () =>{
 reportWrapper.insertAdjacentHTML("beforeend" , `
     
     <div class="jonas-course-card">
-      <img src="/851712_fc61_6.jpg.png" alt="JavaScript Course" class="jonas-course-img">
+      <img src="../851712_fc61_6.jpg.png" alt="JavaScript Course" class="jonas-course-img">
       <h3 class="jonas-course-title">The Complete JavaScript Course 2025: From Zero to Hero</h3>
       <p class="jonas-instructor-name">Jonas Schmedtmann</p>
       <div class="jonas-course-meta">
@@ -275,7 +275,7 @@ reportWrapper.insertAdjacentHTML("beforeend" , `
     </div>
 
     <div class="jonas-course-card">
-      <img src="/851712_fc61_6.jpg.png" alt="Node Course" class="jonas-course-img">
+      <img src="../851712_fc61_6.jpg.png" alt="Node Course" class="jonas-course-img">
       <h3 class="jonas-course-title">Node.js, Express, MongoDB & More: The Complete</h3>
       <p class="jonas-instructor-name">Jonas Schmedtmann</p>
       <div class="jonas-course-meta">
@@ -287,7 +287,7 @@ reportWrapper.insertAdjacentHTML("beforeend" , `
     </div>
 
     <div class="jonas-course-card">
-      <img src="/851712_fc61_6.jpg.png" alt="HTML CSS Course" class="jonas-course-img">
+      <img src="../851712_fc61_6.jpg.png" alt="HTML CSS Course" class="jonas-course-img">
       <h3 class="jonas-course-title">Build Responsive Real-World Websites with HTML and CSS</h3>
       <p class="jonas-instructor-name">Jonas Schmedtmann</p>
       <div class="jonas-course-meta">
@@ -453,7 +453,7 @@ let findCourse = courses.find(courses => courses.id == courseId);
 if (findCourse) {
   courseCard.innerHTML = `
     <div class="course-preview">
-      <img src="/assets/${findCourse.img}" alt="${findCourse.title}" class="charchadim" />
+      <img src="../assets/${findCourse.img}" alt="${findCourse.title}" class="charchadim" />
     </div>
 
     <div class="price-section">
