@@ -304,26 +304,35 @@ reportWrapper.insertAdjacentHTML("beforeend" , `
 
 let ratingWrapper = document.getElementById("rating-main")
 
-courses.forEach(course => {
+courses.slice(0, 4).forEach(course => {
     let card = document.createElement("div")
     card.classList.add("rating-item")
-
     card.innerHTML = `
     <div class="rating-header">
         <div class="rating-avatar">CB</div>
         <div>
-          <div class="rating-name">Carlos B.</div>
-          <div class="rating-meta">${course.rating}<img src="/icon-rating-star.svg" alt="" class="rating-star-rate"> • 8 weeks ago</div>
+          <div class="rating-name">${course.author}</div>
+          <div class="rating-meta">${course.rating}
+            <img src="/icon-rating-star.svg" alt="" class="rating-star-rate"> • 8 weeks ago
+          </div>
         </div>
       </div>
       <p class="rating-text">Sim não se pode pedir muito mais, abordou-se muitos temas e foi um ensino sincero...</p>
       <div class="rating-footer">
         <span>Helpful?</span>
-        <span class="goodorbadbtn"><button class="goodboy"><img src="/Button.svg" alt="" class="good"></button><button class="badboy"><img src="/Button (1).svg" alt="" class="bad"></button></span>
+        <span class="goodorbadbtn">
+          <button class="goodboy">
+            <img src="/Button.svg" alt="" class="good">
+          </button>
+          <button class="badboy">
+            <img src="/Button (1).svg" alt="" class="bad">
+          </button>
+        </span>
       </div>
     `
     ratingWrapper.appendChild(card)
 })
+
 
 ratingWrapper.addEventListener("click", (e) => {
     let target = e.target
@@ -375,9 +384,11 @@ let minusCount = document.querySelector(".mnsoni")
 //     ratingWrapper.appendChild(card)
 // })
 
-let cartWrapper = document.querySelector(".showsmorewrapper")
+
 
 let showsmorebtn = document.querySelector(".add-cart")
+
+let cartWrapper = document.querySelector(".showsmorewrapper")
 
 showsmorebtn.addEventListener("click" , () =>{
 
@@ -411,3 +422,4 @@ cartWrapper.appendChild(item)
 
 })
 
+                                                                                                                                        
