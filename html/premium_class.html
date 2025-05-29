@@ -7,59 +7,435 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Premium Learning Hub</h1>
-        <div id="auth-section">
-            <button id="login-btn">Login</button>
-            <button id="signup-btn">Sign Up</button>
-            <span id="user-greeting" style="display:none;"></span>
+    <header class="header-premium">
+        <h1 class="header-title">Premium Learning Hub</h1>
+        <div class="auth-buttons">
+            <a href="#" class="btn">Login</a>
+            <a href="#" class="btn btn-premium">Sign Up</a>
         </div>
     </header>
 
-    <main>
-        <section id="courses-section">
-            <h2>Our Premium Courses</h2>
-            <div class="course-cards" id="course-cards">
-            </div>
-        </section>
+    <main class="main-content">
+        <section class="courses-section">
+            <h2 class="section-title">Our Premium Courses</h2>
+            <p class="section-description">Access high-quality courses to boost your skills. Premium courses are marked with a badge.</p>
+            
+            <div class="course-grid">
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=JavaScript" alt="JavaScript Essentials">
+                    <div class="course-details">
+                        <h3 class="course-name">JavaScript Essentials</h3>
+                        <p class="course-description">Master the basics of JavaScript programming language.</p>
+                        <div class="course-footer">
+                            <span class="course-price free-label">Free</span>
+                            <a href="#" class="btn">View Course</a>
+                        </div>
+                    </div>
+                </div>
 
-        <div id="auth-modal" class="modal">
-            <div class="modal-content">
-                <span class="close-btn">&times;</span>
-                <h2 id="modal-title">Login</h2>
-                <form id="auth-form">
-                    <div id="name-field" style="display:none;">
-                        <label for="name">Full Name:</label>
-                        <input type="text" id="name" required>
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=Advanced+JS" alt="Advanced JavaScript">
+                    <div class="course-details">
+                        <span class="premium-badge">Premium</span>
+                        <h3 class="course-name">Advanced JavaScript</h3>
+                        <p class="course-description">Deep dive into closures, scopes, and async programming.</p>
+                        <div class="course-footer">
+                            <span class="course-price">$29.99</span>
+                            <a href="#" class="btn btn-premium">Enroll Now</a>
+                        </div>
                     </div>
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" required>
-                    </div>
-                    <div>
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" required>
-                    </div>
-                    <button type="submit" id="submit-auth">Login</button>
-                </form>
-                <p id="auth-switch">Don't have an account? <a href="#" id="switch-to-signup">Sign up</a></p>
-            </div>
-        </div>
+                </div>
 
-        <div id="course-modal" class="modal">
-            <div class="modal-content">
-                <span class="close-btn">&times;</span>
-                <div id="course-content">
-                 
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=React" alt="React for Beginners">
+                    <div class="course-details">
+                        <h3 class="course-name">React for Beginners</h3>
+                        <p class="course-description">Build interactive UIs with React framework.</p>
+                        <div class="course-footer">
+                            <span class="course-price free-label">Free</span>
+                            <a href="#" class="btn">View Course</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=React+Pro" alt="React Pro">
+                    <div class="course-details">
+                        <span class="premium-badge">Premium</span>
+                        <h3 class="course-name">React Pro</h3>
+                        <p class="course-description">State management, context, and advanced patterns.</p>
+                        <div class="course-footer">
+                            <span class="course-price">$34.99</span>
+                            <a href="#" class="btn btn-premium">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=HTML+CSS" alt="HTML & CSS">
+                    <div class="course-details">
+                        <h3 class="course-name">HTML & CSS</h3>
+                        <p class="course-description">Design beautiful, responsive websites.</p>
+                        <div class="course-footer">
+                            <span class="course-price free-label">Free</span>
+                            <a href="#" class="btn">View Course</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=Node.js" alt="Fullstack with Node.js">
+                    <div class="course-details">
+                        <span class="premium-badge">Premium</span>
+                        <h3 class="course-name">Fullstack with Node.js</h3>
+                        <p class="course-description">Back-end development with Express framework.</p>
+                        <div class="course-footer">
+                            <span class="course-price">$39.99</span>
+                            <a href="#" class="btn btn-premium">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=Python" alt="Python Programming">
+                    <div class="course-details">
+                        <h3 class="course-name">Python Programming</h3>
+                        <p class="course-description">Intro to Python and basic syntax.</p>
+                        <div class="course-footer">
+                            <span class="course-price free-label">Free</span>
+                            <a href="#" class="btn">View Course</a>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=ML" alt="Machine Learning 101">
+                    <div class="course-details">
+                        <span class="premium-badge">Premium</span>
+                        <h3 class="course-name">Machine Learning 101</h3>
+                        <p class="course-description">Basics of ML and scikit-learn library.</p>
+                        <div class="course-footer">
+                            <span class="course-price">$49.99</span>
+                            <a href="#" class="btn btn-premium">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=SQL" alt="Database Design">
+                    <div class="course-details">
+                        <h3 class="course-name">Database Design</h3>
+                        <p class="course-description">Learn SQL and relational database design.</p>
+                        <div class="course-footer">
+                            <span class="course-price free-label">Free</span>
+                            <a href="#" class="btn">View Course</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=DevOps" alt="DevOps Crash Course">
+                    <div class="course-details">
+                        <span class="premium-badge">Premium</span>
+                        <h3 class="course-name">DevOps Crash Course</h3>
+                        <p class="course-description">CI/CD, Docker, and automation basics.</p>
+                        <div class="course-footer">
+                            <span class="course-price">$44.99</span>
+                            <a href="#" class="btn btn-premium">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=A11Y" alt="Web Accessibility">
+                    <div class="course-details">
+                        <h3 class="course-name">Web Accessibility</h3>
+                        <p class="course-description">Build inclusive websites for all users.</p>
+                        <div class="course-footer">
+                            <span class="course-price free-label">Free</span>
+                            <a href="#" class="btn">View Course</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=TypeScript" alt="TypeScript Basics">
+                    <div class="course-details">
+                        <h3 class="course-name">TypeScript Basics</h3>
+                        <p class="course-description">Add type safety to JavaScript code.</p>
+                        <div class="course-footer">
+                            <span class="course-price free-label">Free</span>
+                            <a href="#" class="btn">View Course</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=UIUX" alt="UI/UX Principles">
+                    <div class="course-details">
+                        <span class="premium-badge">Premium</span>
+                        <h3 class="course-name">UI/UX Principles</h3>
+                        <p class="course-description">Design better user experiences.</p>
+                        <div class="course-footer">
+                            <span class="course-price">$29.99</span>
+                            <a href="#" class="btn btn-premium">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=GraphQL" alt="GraphQL Basics">
+                    <div class="course-details">
+                        <span class="premium-badge">Premium</span>
+                        <h3 class="course-name">GraphQL Basics</h3>
+                        <p class="course-description">API querying made easy with GraphQL.</p>
+                        <div class="course-footer">
+                            <span class="course-price">$34.99</span>
+                            <a href="#" class="btn btn-premium">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card-zb">
+                    <img class="course-image" src="https://via.placeholder.com/300x180?text=Security" alt="Cybersecurity Essentials">
+                    <div class="course-details">
+                        <h3 class="course-name">Cybersecurity Essentials</h3>
+                        <p class="course-description">Stay safe and secure online.</p>
+                        <div class="course-footer">
+                            <span class="course-price free-label">Free</span>
+                            <a href="#" class="btn">View Course</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
-    <footer>
-        <p>&copy; 2023 Premium Learning Hub. All rights reserved.</p>
-    </footer>
-
-    <script src="/js/premium.js"></script>
+    <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer__online-world">
+              <div class="online-world-left">
+                <h4 class="online-world-left-title">Teach the world online</h4>
+                <div class="online-world-left-text">
+                  Create an online video course, reach students across the globe,
+                  and earn money
+                </div>
+              </div>
+              <button class="online-world-left-btn">Teach on Udemy</button>
+            </div>
+            <div class="footer__career-skills">
+              <div class="footer__career-skill-text">
+                Top companies choose
+                <a href="#" class="footer__career-skill-link">Udemy Business</a>
+                to build in-demand career skills.
+              </div>
+              <div class="footer__career-skill-logos">
+                <a href="#" class="career-skill-link">
+                  <img src="/assets/Nasdaq.png" alt="" class="career-skill-img" />
+                </a>
+                <a href="#" class="career-skill-link">
+                  <img
+                    src="/assets/Volkswagen.png"
+                    alt=""
+                    class="career-skill-img"
+                  />
+                </a>
+                <a href="#" class="career-skill-link">
+                  <img src="/assets/NetApp.png" alt="" class="career-skill-img" />
+                </a>
+                <a href="#" class="career-skill-link">
+                  <img
+                    src="/assets/Eventbrite.png"
+                    alt=""
+                    class="career-skill-img"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="footer__main-side">
+              <h3 class="footer__main-title">
+                Explore top skills and certifications
+              </h3>
+              <ul class="footere__main-menu">
+                <li class="main-menu-list">
+                  <h4 class="main-menu-title">In-demand Careers</h4>
+                  <ul class="main-mini-menu">
+                    <li class="mini-menu-list">
+                      <p class="mini-menu-text">Data Scientist</p>
+                      <p class="mini-menu-text">Full Stack Web Developer</p>
+                      <p class="mini-menu-text">Cloud Engineer</p>
+                      <p class="mini-menu-text">Project Manager</p>
+                      <p class="mini-menu-text">Game Developer</p>
+                      <p class="mini-menu-text">See all Career Accelerators</p>
+                    </li>
+                  </ul>
+                </li>
+                <li class="main-menu-list">
+                  <h4 class="main-menu-title">Web Development</h4>
+                  <ul class="main-mini-menu">
+                    <li class="mini-menu-list">
+                      <p class="mini-menu-text">Web Development</p>
+                      <p class="mini-menu-text">JavaScript</p>
+                      <p class="mini-menu-text">React JS</p>
+                      <p class="mini-menu-text">Angular</p>
+                      <p class="mini-menu-text">Java</p>
+                    </li>
+                  </ul>
+                </li>
+                <li class="main-menu-list">
+                  <h4 class="main-menu-title">IT Certifications</h4>
+                  <ul class="main-mini-menu">
+                    <li class="mini-menu-list">
+                      <p class="mini-menu-text">Amazon AWS</p>
+                      <p class="mini-menu-text">
+                        AWS Certified Cloud Practitioner
+                      </p>
+                      <p class="mini-menu-text">
+                        AZ-900: Microsoft Azure Fundamentals
+                      </p>
+                      <p class="mini-menu-text">
+                        AWS Certified Solutions Architect - Associate
+                      </p>
+                      <p class="mini-menu-text">Kubernetes</p>
+                    </li>
+                  </ul>
+                </li>
+                <li class="main-menu-list">
+                  <h4 class="main-menu-title">Leadership</h4>
+                  <ul class="main-mini-menu">
+                    <li class="mini-menu-list">
+                      <p class="mini-menu-text">Leadership</p>
+                      <p class="mini-menu-text">Management Skills</p>
+                      <p class="mini-menu-text">Project Management</p>
+                      <p class="mini-menu-text">Personal Productivity</p>
+                      <p class="mini-menu-text">Emotional Intelligence</p>
+                    </li>
+                  </ul>
+                </li>
+                <li class="main-menu-list">
+                  <h4 class="main-menu-title">Certifications by Skill</h4>
+                  <ul class="main-mini-menu">
+                    <li class="mini-menu-list">
+                      <p class="mini-menu-text">Cybersecurity Certification</p>
+                      <p class="mini-menu-text">
+                        Project Management Certification
+                      </p>
+                      <p class="mini-menu-text">Cloud Certification</p>
+                      <p class="mini-menu-text">Data Analytics Certification</p>
+                      <p class="mini-menu-text">HR Management Certification</p>
+                      <p class="mini-menu-text">See all Certifications</p>
+                    </li>
+                  </ul>
+                </li>
+                <li class="main-menu-list">
+                  <h4 class="main-menu-title">Data Science</h4>
+                  <ul class="main-mini-menu">
+                    <li class="mini-menu-list">
+                      <p class="mini-menu-text">Data Science</p>
+                      <p class="mini-menu-text">Python</p>
+                      <p class="mini-menu-text">Machine Learning</p>
+                      <p class="mini-menu-text">ChatGPT</p>
+                      <p class="mini-menu-text">ChatGPT</p>
+                    </li>
+                  </ul>
+                </li>
+                <li class="main-menu-list">
+                  <h4 class="main-menu-title">Communication</h4>
+                  <ul class="main-mini-menu">
+                    <li class="mini-menu-list">
+                      <p class="mini-menu-text">Communication Skills</p>
+                      <p class="mini-menu-text">Presentation Skills</p>
+                      <p class="mini-menu-text">Public Speaking</p>
+                      <p class="mini-menu-text">Writing</p>
+                      <p class="mini-menu-text">PowerPoint</p>
+                    </li>
+                  </ul>
+                </li>
+                <li class="main-menu-list">
+                  <h4 class="main-menu-title">
+                    Business Analytics & Intelligence
+                  </h4>
+                  <ul class="main-mini-menu">
+                    <li class="mini-menu-list">
+                      <p class="mini-menu-text">Microsoft Excel</p>
+                      <p class="mini-menu-text">SQL</p>
+                      <p class="mini-menu-text">Microsoft Power BI</p>
+                      <p class="mini-menu-text">Data Analysis</p>
+                      <p class="mini-menu-text">Business Analysis</p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__info">
+              <ul class="footer__info-menu">
+                <li class="footer__info-list">
+                  <ul class="footere__info-mini-menu">
+                    <h3 class="info-mini-menu-title">About</h3>
+                    <li class="info-mini-menu-list">
+                      <a href="#" class="info-mini-menu-link">About us</a>
+                      <a href="#" class="info-mini-menu-link">Careers</a>
+                      <a href="#" class="info-mini-menu-link">Contact us</a>
+                      <a href="#" class="info-mini-menu-link">Blog</a>
+                      <a href="#" class="info-mini-menu-link">Investors</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="footer__info-list">
+                  <ul class="footere__info-mini-menu">
+                    <h3 class="info-mini-menu-title">Discover Udemy</h3>
+                    <li class="info-mini-menu-list">
+                      <a href="#" class="info-mini-menu-link">Get the app</a>
+                      <a href="#" class="info-mini-menu-link">Teach on Udemy</a>
+                      <a href="#" class="info-mini-menu-link"
+                        >Plans and Pricing</a
+                      >
+                      <a href="#" class="info-mini-menu-link">Affiliate</a>
+                      <a href="#" class="info-mini-menu-link">Help and Support</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="footer__info-list">
+                  <ul class="footere__info-mini-menu">
+                    <h3 class="info-mini-menu-title">Udemy for Business</h3>
+                    <li class="info-mini-menu-list">
+                      <a href="#" class="info-mini-menu-link">Udemy Business</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="footer__info-list">
+                  <ul class="footere__info-mini-menu">
+                    <h3 class="info-mini-menu-title">Legal & Accessibility</h3>
+                    <li class="info-mini-menu-list">
+                      <a href="#" class="info-mini-menu-link"
+                        >Accessibility statement</a
+                      >
+                      <a href="#" class="info-mini-menu-link">Privacy policy</a>
+                      <a href="#" class="info-mini-menu-link">Sitemap</a>
+                      <a href="#" class="info-mini-menu-link">Terms</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__last-page">
+              <div class="footer__logo">
+                <a href="./index.html" class="profile__img footer-img">
+                  <img
+                    src="../assets/white color.png"
+                    alt="alt"
+                    class="header__pic"
+                  />
+                  © 2025 Udemy, Inc.
+                </a>
+                <a href="#" class="footer__settings">Cookie settings</a>
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>

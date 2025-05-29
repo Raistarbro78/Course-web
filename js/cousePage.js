@@ -105,6 +105,7 @@ function renderLearnList(courses) {
     
     filtered.forEach(course => {
         const {
+            id,
             title,
             author,
             rating,
@@ -118,7 +119,7 @@ function renderLearnList(courses) {
         slide.className = 'swiper-slide';
         
         slide.innerHTML = `
-            <li class="card">
+            <a  href="./amin.html?id=${id}" class="card">
         <main class="card__content">
           <img src="/assets/${img}" width="236" height="132" alt="${title}">
         </main>
@@ -138,7 +139,7 @@ function renderLearnList(courses) {
           </div>
           <div class="card__badge">Bestseller</div>
         </footer>
-      </li>
+      </a>
         `;
         
         learnList.appendChild(slide);
@@ -184,6 +185,7 @@ function renderShortAndSweetList(courses) {
     
     filteredCourses.forEach(course => {
         const {
+            id,
             title,
             author,
             rating,
@@ -197,7 +199,7 @@ function renderShortAndSweetList(courses) {
         slide.className = 'swiper-slide';
         
         slide.innerHTML = `
-            <li class="card">
+            <a  href="./amin.html?id=${id}" class="card">
                 <main class="card__content">
                     <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
@@ -217,7 +219,7 @@ function renderShortAndSweetList(courses) {
                     </div>
                     <div class="card__badge">Bestseller</div>
                 </footer>
-            </li>
+            </a>
         `;
         
         shortAndSweetList.appendChild(slide);
@@ -266,6 +268,7 @@ function renderTopCoursesInDevelopmentList(courses) {
     
     filtered.forEach(course => {
         const {
+            id,
             title,
             author,
             rating,
@@ -279,7 +282,7 @@ function renderTopCoursesInDevelopmentList(courses) {
         slide.className = 'swiper-slide';
         
         slide.innerHTML = `
-      <li class="card">
+      <a href="./amin.html?id=${id}" class="card">
         <main class="card__content">
           <img src="/assets/${img}" width="236" height="132" alt="${title}">
         </main>
@@ -299,7 +302,7 @@ function renderTopCoursesInDevelopmentList(courses) {
           </div>
           <div class="card__badge">Bestseller</div>
         </footer>
-      </li>
+      </a>
     `;
         
         container.appendChild(slide);
@@ -344,6 +347,7 @@ function renderTopCoursesInDevelopmentList(courses) {
     
     filtered.forEach(course => {
         const {
+            id,
             title,
             author,
             rating,
@@ -357,7 +361,7 @@ function renderTopCoursesInDevelopmentList(courses) {
         slide.className = "swiper-slide";
         
         slide.innerHTML = `
-            <li class="card">
+            <a href="./amin.html?id=${id}" class="card">
                 <main class="card__content">
                     <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
@@ -377,7 +381,7 @@ function renderTopCoursesInDevelopmentList(courses) {
                     </div>
                     <div class="card__badge">Top Rated</div>
                 </footer>
-            </li>
+            </a>
         `;
         
         container.appendChild(slide);
@@ -426,6 +430,7 @@ function renderTopCoursesInDesignList(courses) {
     
     filtered.forEach(course => {
         const {
+            id,
             title,
             author,
             rating,
@@ -439,7 +444,7 @@ function renderTopCoursesInDesignList(courses) {
         slide.className = "swiper-slide";
         
         slide.innerHTML = `
-            <li class="card">
+            <a  href="./amin.html?id=${id}" class="card">
                 <main class="card__content">
                     <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
@@ -459,7 +464,7 @@ function renderTopCoursesInDesignList(courses) {
                     </div>
                     <div class="card__badge">Top Rated</div>
                 </footer>
-            </li>
+            </a>
         `;
         
         container.appendChild(slide);
@@ -506,6 +511,7 @@ function renderTopCoursesInBusinessList(courses) {
 
     filtered.forEach(course => {
         const {
+            id,
             title,
             author,
             rating,
@@ -519,7 +525,7 @@ function renderTopCoursesInBusinessList(courses) {
         slide.className = "swiper-slide";
 
         slide.innerHTML = `
-            <li class="card">
+            <a  href="./amin.html?id=${id}"class="card">
                 <main class="card__content">
                     <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
@@ -539,7 +545,7 @@ function renderTopCoursesInBusinessList(courses) {
                     </div>
                     <div class="card__badge">Top Rated</div>
                 </footer>
-            </li>
+            </a>
         `;
 
         container.appendChild(slide);
@@ -587,6 +593,7 @@ function renderTopCoursesInITList(courses) {
 
     filtered.forEach(course => {
         const {
+            id,
             title,
             author,
             rating,
@@ -600,7 +607,7 @@ function renderTopCoursesInITList(courses) {
         slide.className = "swiper-slide";
 
         slide.innerHTML = `
-            <li class="card">
+            <a  href="./amin.html?id=${id}" class="card">
                 <main class="card__content">
                     <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
@@ -620,7 +627,7 @@ function renderTopCoursesInITList(courses) {
                     </div>
                     <div class="card__badge">Top Rated</div>
                 </footer>
-            </li>
+            </a>
         `;
 
         container.appendChild(slide);
@@ -667,6 +674,7 @@ function renderTopCoursesInPersonalDevList(courses) {
 
     filtered.forEach(course => {
         const {
+            id,
             title,
             author,
             rating,
@@ -680,7 +688,7 @@ function renderTopCoursesInPersonalDevList(courses) {
         slide.className = "swiper-slide";
 
         slide.innerHTML = `
-            <li class="card">
+            <a  href="./amin.html?id=${id}" class="card">
                 <main class="card__content">
                     <img src="/assets/${img}" width="236" height="132" alt="${title}">
                 </main>
@@ -700,7 +708,7 @@ function renderTopCoursesInPersonalDevList(courses) {
                     </div>
                     <div class="card__badge">Top Rated</div>
                 </footer>
-            </li>
+            </a>
         `;
 
         container.appendChild(slide);

@@ -302,28 +302,55 @@ reportWrapper.insertAdjacentHTML("beforeend" , `
     yoifyourntsarvardontfuckinignoreme.classList.add("none")
 })
 
-let ratingWrapper = document.getElementById("rating-main")
+function renderCommentsFromURL(courses) {
+  const urlParams = new URLSearchParams(window.location.search);
+  const courseId = parseInt(urlParams.get("id"));
 
-courses.forEach(course => {
-    let card = document.createElement("div")
-    card.classList.add("rating-item")
+  const course = courses.find(c => c.id === courseId);
 
-    card.innerHTML = `
-    <div class="rating-header">
-        <div class="rating-avatar">CB</div>
-        <div>
-          <div class="rating-name">Carlos B.</div>
-          <div class="rating-meta">${course.rating}<img src="/icon-rating-star.svg" alt="" class="rating-star-rate"> • 8 weeks ago</div>
+  if (!course) {
+    console.warn("Kurs topilmadi!");
+    return;
+  }
+
+  const commentsHTML = course.comments.map(comment => {
+    return `
+      <div class="rating-item">
+        <div class="rating-header">
+          <div class="rating-avatar">${comment.username.slice(0, 2).toUpperCase()}</div>
+          <div>
+            <div class="rating-name">${comment.username}</div>
+            <div class="rating-meta">
+              <img src="${comment.ratingImage}" alt="" class="rating-star-rate">
+              • ${comment.date}
+              • ${'⭐️'.repeat(comment.rating)}
+            </div>
+          </div>
+        </div>
+        <p class="rating-text">${comment.comment}</p>
+        <div class="rating-footer">
+          <span>Helpful?</span>
+          <span class="goodorbadbtn">
+            <p class="plsoni"></p>
+            <button class="goodboy"><img src="/Button.svg" alt="" class="good"></button>
+            <p class="mnsoni"></p>
+            <button class="badboy"><img src="/Button (1).svg" alt="" class="bad"></button>
+          </span>
         </div>
       </div>
-      <p class="rating-text">Sim não se pode pedir muito mais, abordou-se muitos temas e foi um ensino sincero...</p>
-      <div class="rating-footer">
-        <span>Helpful?</span>
-        <span class="goodorbadbtn"><button class="goodboy"><img src="/Button.svg" alt="" class="good"></button><button class="badboy"><img src="/Button (1).svg" alt="" class="bad"></button></span>
-      </div>
-    `
-    ratingWrapper.appendChild(card)
-})
+    `;
+  }).join("");
+
+  const adderWrapper = document.getElementById("rating-main"); 
+  adderWrapper.innerHTML = commentsHTML;
+}
+
+ renderCommentsFromURL(courses) 
+showingMore.addEventListener("click", () => {
+  renderCommentsFromURL();
+  showingMore.classList.add("none");
+});
+
 
 ratingWrapper.addEventListener("click", (e) => {
     let target = e.target
@@ -412,4 +439,58 @@ cartWrapper.appendChild(item)
 })
 
 })
+const urlParams = new URLSearchParams(window.location.search);
+const courseId = urlParams.get('id'); 
 
+
+let courseCard = document.getElementById('course-card');  
+
+
+
+let findCourse = courses.find(courses => courses.id == courseId);
+
+
+if (findCourse) {
+  courseCard.innerHTML = `
+    <div class="course-preview">
+      <img src="/assets/${findCourse.img}" alt="${findCourse.title}" class="charchadim" />
+    </div>
+
+    <div class="price-section">
+      <div>
+        <span class="price">$${findCourse.price}</span>
+        <span class="original-price">$${findCourse.originalPrice}</span>
+        <span class="discount">${findCourse.discount} off</span>
+      </div>
+      <div class="deal-timer">1 day left at this price!</div>
+    </div>
+
+    <div class="guarantee">30 Day Money-Back Guarantee</div>
+
+    <div class="buttons">
+      <button class="btn btn-primary">Buy now</button>
+      <div class="cuppon-box">
+        <input type="text" class="cuppon-input" />
+        <button class="cuppon-btn">Apply</button>
+      </div>
+      <p class="textsecret"></p>
+    </div>
+
+    <div class="subscribe-section">
+      <div class="subscribe-title">
+        Subscribe to Udemy's top courses
+      </div>
+      <div class="subscribe-text">
+        Get this course, plus 13,000+ of our top-rated courses, with
+        Personal Plan. Learn more
+      </div>
+      <button class="subscribe-btn">Try Personal Plan for free</button>
+      <div class="trial-text">
+        Starting at $10.00 per month after trial
+        <br />Cancel anytime
+      </div>
+    </div>
+  `;
+} else {
+  courseCard.innerHTML = `<p>Course not found.</p>`;
+}
