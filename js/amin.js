@@ -410,33 +410,33 @@ showsmorebtn.addEventListener("click" , () =>{
 
 
 
-courses.forEach(course => {
-    let item = document.createElement("li")
-    item.classList.add("cart-item")
+// courses.forEach(course => {
+//     let item = document.createElement("li")
+//     item.classList.add("cart-item")
 
-item.innerHTML = `
- <img
-                  src="/imgs/${course.img}"
-                  alt=""
-                  class="cart-item-img"
-                />
-                <div class="cart-item-info">
-                  <div class="item-left-info">
-                    <h1 class="cart-item-info-title">
-                      ${course.title}
-                    </h1>
-                    <p class="cart-item-info-creator">Jonas Schmedtmann</p>
-                    <p class="header-star">4.7 <img src="/SVG.svg" alt="" /></p>
-                    <button class="header-box-btn">Bestseller</button>
-                  </div>
-                  <div class="item-right-info">
-                    <p class="item-right-price">$9.99</p>
-                    <p class="item-right-sale"><del>$59.99</del></p>
-                  </div>
-                </div>
-`
-cartWrapper.appendChild(item)
-})
+// item.innerHTML = `
+// //  <img
+// //                   src="/imgs/${course.img}"
+// //                   alt=""
+// //                   class="cart-item-img"
+// //                 />
+// //                 <div class="cart-item-info">
+// //                   <div class="item-left-info">
+// //                     <h1 class="cart-item-info-title">
+// //                       ${course.title}
+// //                     </h1>
+// //                     <p class="cart-item-info-creator">Jonas Schmedtmann</p>
+// //                     <p class="header-star">4.7 <img src="/SVG.svg" alt="" /></p>
+// //                     <button class="header-box-btn">Bestseller</button>
+// //                   </div>
+// //                   <div class="item-right-info">
+// //                     <p class="item-right-price">$9.99</p>
+// //                     <p class="item-right-sale"><del>$59.99</del></p>
+// //                   </div>
+// //                 </div>
+// `
+// cartWrapper.appendChild(item)
+// })
 
 })
 const urlParams = new URLSearchParams(window.location.search);
